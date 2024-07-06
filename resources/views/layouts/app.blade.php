@@ -32,5 +32,8 @@
                 </div>
             </nav>
         </div>
+        <footer class="flex justify-center">
+            <img src="{{ Vite::asset("resources/images/logo@2.svg") }}" alt="Laravel PayHere Logo" width="h-[50px]" />
+        </footer>
     </body>
 </html>
