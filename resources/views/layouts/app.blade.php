@@ -11,8 +11,8 @@
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.bunny.net" />
-        <link href="https://fonts.bunny.net/css?family=Ubuntu" rel="stylesheet" />
-        <link href="https://fonts.bunny.net/css?family=Figtree" rel="stylesheet" />
+        <link href="https://fonts.bunny.net/css?family=ubuntu:400,500" rel="stylesheet" />
+        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600" rel="stylesheet" />
 
         <!-- Scripts -->
         @vite(["resources/css/app.css", "resources/js/app.js"])
@@ -25,10 +25,10 @@
             <nav class="flex items-center justify-between py-5">
                 <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
                 <div class="hidden gap-8 lg:inline-flex">
-                    <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm text-white transition-colors hover:bg-black hover:bg-opacity-15">Features</a>
-                    <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm text-white transition-colors hover:bg-black hover:bg-opacity-15">Docs</a>
-                    <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm text-white transition-colors hover:bg-black hover:bg-opacity-15">Changelog</a>
-                    <a href="#" class="cursor-pointer rounded-xl bg-white bg-opacity-10 px-4 py-2 text-sm text-white transition-all hover:bg-opacity-15">Buy now</a>
+                    <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-black hover:bg-opacity-15">Features</a>
+                    <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-black hover:bg-opacity-15">Docs</a>
+                    <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-black hover:bg-opacity-15">Changelog</a>
+                    <a href="#" class="cursor-pointer rounded-xl bg-white bg-opacity-10 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-opacity-15">Buy now</a>
                 </div>
             </nav>
         </div>
