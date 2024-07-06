@@ -1,7 +1,7 @@
 @extends("layouts.app")
 
 @section("content")
-    <section class="flex flex-col items-center gap-10 py-24">
+    <section class="flex max-w-7xl flex-col items-center gap-10 py-24">
         <h1 class="text-5xl font-bold text-white">
             Pay
             <span class="text-yellow-500">Here</span>
