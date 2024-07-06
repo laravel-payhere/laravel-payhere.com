@@ -21,7 +21,7 @@
                 <strong>TALL Stack</strong>
             </h2>
             <p class="text-md text-white opacity-70">We use the latest technologies to provide you with the best user experience.</p>
-            <div class="mt-10 flex items-center justify-center gap-16">
+            <div class="mt-10 flex flex-wrap items-center justify-center gap-16">
                 <img class="h-[30px]" src="{{ Vite::asset("resources/images/tailwindcss.svg") }}" alt="TailwindCSS" />
                 <img class="h-[35px]" src="{{ Vite::asset("resources/images/alpinejs.svg") }}" alt="Alpine.js" />
                 <img class="h-[28px]" src="{{ Vite::asset("resources/images/laravel.svg") }}" alt="Laravel" />
