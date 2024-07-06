@@ -15,11 +15,11 @@
     <link href="https://fonts.bunny.net/css?family=Figtree" rel="stylesheet">
 
     <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
-<h1 class="text-3xl font-bold underline">
-    Hello world!
-</h1>
+<body class="bg-black">
+<div class="bg-gradient-to-b from-blue-700 to-black h-[40rem]">
+
+</div>
 </body>
 </html>
