@@ -24,10 +24,8 @@
     <div class="absolute w-full top-0 px-32">
         <nav class="flex justify-between items-center py-5">
             <img src="{{ Vite::asset('resources/images/logo@1.svg') }}" alt="Laravel PayHere Logo">
-            <div class="inline-flex gap-14">
-                <a class="text-white">Features</a>
-                <a class="text-white">Docs</a>
-                <a class="text-white">Changelog</a>
+            <div class="inline-flex gap-10">
+                <a class="text-white hover:bg-black hover:bg-opacity-15 transition-colors px-5 cursor-pointer rounded-full py-2">Features</a>
             </div>
         </nav>
     </div>
