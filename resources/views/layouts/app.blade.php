@@ -32,6 +32,9 @@
                 </div>
             </nav>
         </div>
+
+        @yield("content")
+
         <footer class="flex flex-col items-center justify-center gap-3 py-16">
             <img src="{{ Vite::asset("resources/images/logo@2.svg") }}" class="h-[30px]" alt="Laravel PayHere Logo" />
             <div class="inline-flex gap-3">
