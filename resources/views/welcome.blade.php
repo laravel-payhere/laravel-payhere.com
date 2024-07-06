@@ -3,7 +3,7 @@
 @section("content")
     <section class="mx-auto mt-20 max-w-7xl px-5">
         <div class="flex flex-col items-center gap-10">
-            <h1 class="text-5xl font-bold text-white">
+            <h1 class="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
                 <span class="inline-flex">
                     Pay
                     <span class="text-yellow-500">Here</span>
