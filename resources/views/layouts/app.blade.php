@@ -26,7 +26,8 @@
                 <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" alt="Laravel PayHere Logo" />
                 <div class="inline-flex gap-5">
                     <a class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15">Features</a>
-                    <a class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15">Features</a>
+                    <a class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15">Docs</a>
+                    <a class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15">Changelog</a>
                 </div>
             </nav>
         </div>
