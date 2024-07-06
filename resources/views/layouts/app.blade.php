@@ -42,7 +42,10 @@
                 <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:underline">Terms and Conditions</a>
                 <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:underline">Refund Policy</a>
             </div>
-            <div class="text-sm text-white">PayHere is a trademark and usage of their trademark for this project has been approved by them.</div>
+            <div class="text-sm text-white">
+                <a href="https://payhere.lk/" class="cursor-pointer text-sm font-medium text-white transition-colors hover:underline">PayHere</a>
+                is a trademark and usage of their trademark for this project has been approved by them.
+            </div>
         </footer>
     </body>
 </html>
