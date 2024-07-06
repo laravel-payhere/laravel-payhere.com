@@ -25,9 +25,9 @@
             <nav class="flex items-center justify-between py-5">
                 <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" alt="Laravel PayHere Logo" />
                 <div class="inline-flex gap-5">
-                    <a href="#" class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15">Features</a>
-                    <a href="#" class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15">Docs</a>
-                    <a href="#" class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15">Changelog</a>
+                    <a href="#" class="cursor-pointer rounded-full px-5 py-2 text-sm text-white transition-colors hover:bg-black hover:bg-opacity-15">Features</a>
+                    <a href="#" class="cursor-pointer rounded-full px-5 py-2 text-sm text-white transition-colors hover:bg-black hover:bg-opacity-15">Docs</a>
+                    <a href="#" class="cursor-pointer rounded-full px-5 py-2 text-sm text-white transition-colors hover:bg-black hover:bg-opacity-15">Changelog</a>
                 </div>
             </nav>
         </div>
