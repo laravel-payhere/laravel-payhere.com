@@ -24,11 +24,13 @@
         <div class="absolute top-0 w-full">
             <header class="mx-auto max-w-7xl">
                 <nav class="flex items-center justify-between py-5">
-                    <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
+                    <a href="{{ config("app.url") }}">
+                        <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
+                    </a>
                     <div class="hidden gap-8 lg:inline-flex">
-                        <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-black hover:bg-opacity-15">Features</a>
-                        <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-black hover:bg-opacity-15">Docs</a>
-                        <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-black hover:bg-opacity-15">Changelog</a>
+                        <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Features</a>
+                        <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Docs</a>
+                        <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Changelog</a>
                         <a href="#" class="cursor-pointer rounded-xl bg-white bg-opacity-10 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-opacity-15">Purchase a license</a>
                     </div>
                 </nav>
