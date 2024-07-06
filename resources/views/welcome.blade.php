@@ -1,8 +1,8 @@
 @extends("layouts.app")
 
 @section("content")
-    <section class="mx-auto mt-20 max-w-7xl px-5">
-        <div class="flex flex-col items-center gap-10">
+    <section class="mx-auto mt-10 max-w-7xl px-5 lg:mt-20">
+        <div class="flex flex-col gap-5 text-start md:items-center lg:gap-10">
             <h1 class="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
                 <span class="inline-flex">
                     Pay
@@ -10,8 +10,8 @@
                 </span>
                 for Laravel
             </h1>
-            <p class="text-lg text-white">Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin.</p>
-            <img class="w-full scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
+            <p class="mx-auto max-w-5xl text-start text-sm leading-7 text-white md:text-center md:text-base">Easily and securely integrate the PayHere payment gateway into your Laravel application with our trusted third-party plugin. Laravel PayHere is more than just a payment processing plugin — it also enables you to manage payments and subscriptions with just a click.</p>
+            <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
     <section class="mx-auto mt-20 max-w-7xl">
