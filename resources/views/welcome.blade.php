@@ -10,7 +10,7 @@
                 </span>
                 for Laravel
             </h1>
-            <p class="mx-auto max-w-5xl text-start text-sm leading-7 text-white md:text-center md:text-base">Easily and securely integrate the PayHere payment gateway into your Laravel application with our trusted third-party plugin. Laravel PayHere is more than just a payment processing plugin — it also enables you to manage payments and subscriptions with just a click.</p>
+            <p class="mx-auto max-w-5xl text-start text-sm leading-7 text-white md:text-center md:text-base">Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin.</p>
             <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
