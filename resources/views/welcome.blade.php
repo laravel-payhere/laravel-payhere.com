@@ -8,6 +8,6 @@
             for Laravel
         </h1>
         <p class="text-lg text-white">Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin.</p>
-        <img class="w-full" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
+        <img class="mt-10 w-full" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
     </section>
 @endsection
