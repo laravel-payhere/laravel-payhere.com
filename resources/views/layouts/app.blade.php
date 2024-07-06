@@ -35,9 +35,9 @@
         <footer class="flex flex-col items-center justify-center gap-3 py-16">
             <img src="{{ Vite::asset("resources/images/logo@2.svg") }}" class="h-[30px]" alt="Laravel PayHere Logo" />
             <div class="inline-flex gap-3">
-                <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-black hover:bg-opacity-15">Privacy Policy</a>
-                <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-black hover:bg-opacity-15">Terms and Conditions</a>
-                <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-black hover:bg-opacity-15">Refund Policy</a>
+                <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:underline">Privacy Policy</a>
+                <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:underline">Terms and Conditions</a>
+                <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:underline">Refund Policy</a>
             </div>
             <div class="text-sm text-white">PayHere is a trademark and usage of their trademark for this project has been approved by them.</div>
         </footer>
