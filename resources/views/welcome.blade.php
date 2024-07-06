@@ -14,14 +14,14 @@
             <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
-    <section class="mx-auto mt-20 max-w-7xl">
+    <section class="mx-auto mt-20 max-w-7xl px-5 lg:px-0">
         <div class="flex flex-col items-center gap-5">
-            <h2 class="text-3xl text-white">
+            <h2 class="text-xl text-white md:text-2xl lg:text-3xl">
                 Built with the
                 <strong>TALL Stack</strong>
             </h2>
-            <p class="text-md text-white opacity-70">We use the latest technologies to provide you with the best user experience.</p>
-            <div class="mt-10 flex flex-wrap items-center justify-center gap-16">
+            <p class="text-center text-xs text-white opacity-70 md:text-sm">We use the latest technologies to provide you with the best user experience.</p>
+            <div class="mt-10 grid grid-cols-2 gap-16 lg:grid-cols-4">
                 <img class="h-[30px]" src="{{ Vite::asset("resources/images/tailwindcss.svg") }}" alt="TailwindCSS" />
                 <img class="h-[35px]" src="{{ Vite::asset("resources/images/alpinejs.svg") }}" alt="Alpine.js" />
                 <img class="h-[28px]" src="{{ Vite::asset("resources/images/laravel.svg") }}" alt="Laravel" />
