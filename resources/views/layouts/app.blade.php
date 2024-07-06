@@ -22,7 +22,7 @@
             <img src="{{ Vite::asset("resources/images/hero-background.png") }}" class="opacity-50" alt="Hero Background" />
         </div>
         <div class="absolute top-0 w-full">
-            <header class="mx-auto max-w-7xl">
+            <header class="mx-auto max-w-7xl px-5">
                 <nav class="flex items-center justify-between py-5">
                     <a href="{{ config("app.url") }}">
                         <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
