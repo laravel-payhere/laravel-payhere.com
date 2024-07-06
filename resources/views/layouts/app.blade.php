@@ -19,26 +19,14 @@
     </head>
     <body class="bg-black font-sans antialiased">
         <div class="bg-gradient-to-b from-blue-700 to-black">
-            <img
-                src="{{ Vite::asset("resources/images/hero-background.png") }}"
-                class="opacity-50"
-                alt="Hero Background"
-            />
+            <img src="{{ Vite::asset("resources/images/hero-background.png") }}" class="opacity-50" alt="Hero Background" />
         </div>
         <div class="absolute top-0 w-full px-32">
             <nav class="flex items-center justify-between py-5">
                 <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" alt="Laravel PayHere Logo" />
                 <div class="inline-flex gap-5">
-                    <a
-                        class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15"
-                    >
-                        Features
-                    </a>
-                    <a
-                        class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15"
-                    >
-                        Features
-                    </a>
+                    <a class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15">Features</a>
+                    <a class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15">Features</a>
                 </div>
             </nav>
         </div>
