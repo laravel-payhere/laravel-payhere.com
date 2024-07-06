@@ -9,7 +9,6 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.13",
     "autoprefixer": "^10.4.19",
     "axios": "^1.6.4",
     "husky": "^9.0.11",
