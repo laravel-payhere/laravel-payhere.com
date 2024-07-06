@@ -1,7 +1,7 @@
 @extends("layouts.app")
 
 @section("content")
-    <section class="mx-auto mt-20 max-w-7xl">
+    <section class="mx-auto mt-20 max-w-7xl px-5">
         <div class="flex flex-col items-center gap-10">
             <h1 class="text-5xl font-bold text-white">
                 <span class="inline-flex">
