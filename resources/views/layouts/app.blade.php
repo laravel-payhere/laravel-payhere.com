@@ -1,33 +1,50 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="{{ str_replace("_", "-", app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>{{ config("app.name", "Laravel") }}</title>
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=Ubuntu" rel="stylesheet">
-    <link href="https://fonts.bunny.net/css?family=Figtree" rel="stylesheet">
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.bunny.net" />
+        <link
+            href="https://fonts.bunny.net/css?family=Ubuntu"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.bunny.net/css?family=Figtree"
+            rel="stylesheet"
+        />
 
-    <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-<body class="bg-black font-sans antialiased">
-    <div class="bg-gradient-to-b from-blue-700 to-black">
-        <img src="{{ Vite::asset('resources/images/hero-background.png') }}" class="opacity-50" alt="Hero Background">
-    </div>
-    <div class="absolute w-full top-0 px-32">
-        <nav class="flex justify-between items-center py-5">
-            <img src="{{ Vite::asset('resources/images/logo@1.svg') }}" alt="Laravel PayHere Logo">
-            <div class="inline-flex gap-10">
-                <a class="text-white hover:bg-black hover:bg-opacity-15 transition-colors px-5 cursor-pointer rounded-full py-2">Features</a>
-            </div>
-        </nav>
-    </div>
-</body>
+        <!-- Scripts -->
+        @vite(["resources/css/app.css", "resources/js/app.js"])
+    </head>
+    <body class="bg-black font-sans antialiased">
+        <div class="bg-gradient-to-b from-blue-700 to-black">
+            <img
+                src="{{ Vite::asset("resources/images/hero-background.png") }}"
+                class="opacity-50"
+                alt="Hero Background"
+            />
+        </div>
+        <div class="absolute top-0 w-full px-32">
+            <nav class="flex items-center justify-between py-5">
+                <img
+                    src="{{ Vite::asset("resources/images/logo@1.svg") }}"
+                    alt="Laravel PayHere Logo"
+                />
+                <div class="inline-flex gap-10">
+                    <a
+                        class="cursor-pointer rounded-full px-5 py-2 text-white transition-colors hover:bg-black hover:bg-opacity-15"
+                    >
+                        Features
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </body>
 </html>
