@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
+    content: [
       "./resources/**/*.blade.php",
-  ],
-  theme: {
+    ],
+    theme: {
+        fontFamily: {
+            sans: ['Figtree', 'sans-serif'],
+        },
       extend: {
           colors: {
               'blue': {
@@ -21,7 +24,7 @@ export default {
               },
           }
       },
-  },
-  plugins: [],
+    },
+    plugins: [],
 }
 

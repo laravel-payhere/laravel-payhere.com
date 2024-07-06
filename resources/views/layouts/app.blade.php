@@ -17,9 +17,13 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-black">
-<div class="bg-gradient-to-b from-blue-700 to-black h-[40rem]">
-
-</div>
+<body class="bg-black font-sans antialiased">
+    <div class="bg-gradient-to-b from-blue-700 to-black">
+        <img src="{{ Vite::asset('resources/images/hero-background.png') }}" class="opacity-50" alt="Hero Background">
+    </div>
+    <div class="absolute w-full top-0">
+        <div>Laravel</div>
+        <div class="font-['Ubuntu']">PayHere</div>
+    </div>
 </body>
 </html>
