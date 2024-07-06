@@ -4,8 +4,10 @@
     <section class="mx-auto max-w-7xl py-24">
         <div class="flex flex-col items-center gap-10">
             <h1 class="text-5xl font-bold text-white">
-                Pay
-                <span class="text-yellow-500">Here</span>
+                <div>
+                    Pay
+                    <span class="text-yellow-500">Here</span>
+                </div>
                 for Laravel
             </h1>
             <p class="text-lg text-white">Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin.</p>
