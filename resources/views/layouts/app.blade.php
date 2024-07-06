@@ -28,6 +28,7 @@
                     <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm text-white transition-colors hover:bg-black hover:bg-opacity-15">Features</a>
                     <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm text-white transition-colors hover:bg-black hover:bg-opacity-15">Docs</a>
                     <a href="#" class="cursor-pointer rounded-full px-4 py-2 text-sm text-white transition-colors hover:bg-black hover:bg-opacity-15">Changelog</a>
+                    <a href="#" class="cursor-pointer rounded-xl bg-white bg-opacity-10 px-4 py-2 text-sm text-white transition-all hover:bg-opacity-15">Buy now</a>
                 </div>
             </nav>
         </div>
