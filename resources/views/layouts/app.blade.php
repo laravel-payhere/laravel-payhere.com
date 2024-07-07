@@ -43,7 +43,7 @@
 
                 <footer class="mt-20 flex flex-col items-start gap-3 py-8 md:items-center md:gap-5 md:py-16">
                     <a href="{{ config("app.url") }}">
-                        <img src="{{ Vite::asset("resources/images/logo@2.svg") }}" class="h-5 md:h-8" alt="Laravel PayHere Logo" />
+                        <img src="{{ Vite::asset("resources/images/logo@2.svg") }}" class="h-6 md:h-8" alt="Laravel PayHere Logo" />
                     </a>
                     <div class="inline-flex flex-col gap-3 md:flex-row md:gap-10">
                         <a href="#" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Privacy Policy</a>
