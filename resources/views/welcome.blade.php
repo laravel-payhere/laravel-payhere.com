@@ -1,7 +1,7 @@
 @extends("layouts.app")
 
 @section("content")
-    <section class="mx-auto mt-10 max-w-7xl px-5 lg:mt-20">
+    <section class="mt-10 lg:mt-20">
         <div class="flex flex-col gap-5 text-start md:items-center lg:gap-10">
             <h1 class="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
                 <span class="inline-flex">
@@ -14,7 +14,7 @@
             <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
-    <section class="mx-auto mt-20 max-w-7xl px-5 lg:px-0">
+    <section class="mt-20">
         <div class="flex flex-col items-center gap-5">
             <h2 class="text-xl text-white md:text-2xl lg:text-3xl">
                 Built with the
