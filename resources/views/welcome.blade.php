@@ -30,7 +30,7 @@
         </div>
     </section>
     <section class="py-20">
-        <div class="lp-feature relative flex gap-5 overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-20 md:px-[80px] md:py-[80px]">
+        <div class="bg-feature relative flex gap-5 overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-20 md:px-[80px] md:py-[80px]">
             <div class="max-w-2xl">
                 <h3 class="text-2xl font-semibold text-white">Simplified HTML Form Based APIs</h3>
                 <p class="mt-10 text-base text-white">PayHere offers four different types of HTML form-based APIs to suit various needs. One of these is the recurring checkout API for subscriptions (as shown on the right). It's a simple HTML form-based POST API, which you can easily implement without leaving the PHP code base.</p>
