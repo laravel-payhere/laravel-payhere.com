@@ -42,9 +42,9 @@
                 <img class="absolute top-5 hidden w-2/5 md:block" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
             </div>
         </div>
-        <div class="bg-feature-reverse flex items-center justify-between gap-5 overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-20 md:px-[80px] md:py-[80px]">
+        <div class="bg-feature-reverse flex items-center justify-between overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-20 md:px-[80px] md:py-[80px]">
             <img class="hidden h-10 md:block" src="{{ Vite::asset("resources/images/filament.svg") }}" alt="Filament logo" />
-            <div class="max-w-2xl">
+            <div class="max-w-3xl">
                 <h3 class="text-2xl font-semibold text-white">Filament Panel for Manage Payments & Subscriptions</h3>
                 <p class="mt-10 text-base text-white">Our plugin includes a built-in Filament panel for managing payments and subscriptions, which allows for processing refunds, canceling subscriptions, and retrying subscriptions.</p>
                 <div class="mt-10 text-base text-white">
