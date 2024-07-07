@@ -1,7 +1,7 @@
 @extends("layouts.app")
 
 @section("content")
-    <section class="my-10 lg:my-20">
+    <section class="py-10 lg:py-20">
         <div class="flex flex-col gap-5 text-start md:items-center lg:gap-10">
             <h1 class="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
                 <span class="inline-flex">
