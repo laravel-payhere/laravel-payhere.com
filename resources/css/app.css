@@ -10,4 +10,8 @@
     h1, h2, h3, h4, h5, h6 {
         @apply font-['Ubuntu'];
     }
+
+    .lp-feature {
+        background: linear-gradient(90deg, rgba(108, 119, 164, 0.50) 0%, rgba(41, 45, 62, 0.50) 100%);;
+    }
 }
