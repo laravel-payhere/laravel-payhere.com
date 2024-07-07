@@ -14,7 +14,7 @@
             <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
-    <section class="pb-20 pt-0">
+    <section class="py-20">
         <div class="flex flex-col items-center gap-5">
             <h2 class="text-xl text-white md:text-2xl lg:text-3xl">
                 Built with the
