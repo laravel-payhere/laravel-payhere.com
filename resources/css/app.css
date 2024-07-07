@@ -12,6 +12,10 @@
     }
 
     .bg-feature {
-        background: linear-gradient(90deg, rgba(108, 119, 164, 0.50) 0%, rgba(41, 45, 62, 0.50) 100%);;
+        background: linear-gradient(90deg, rgba(108, 119, 164, 0.50) 0%, rgba(41, 45, 62, 0.50) 100%);
+    }
+
+    .bg-feature-reverse {
+        background: linear-gradient(90deg, rgba(41, 45, 62, 0.50) 0%, rgba(108, 119, 164, 0.50) 100%);
     }
 }

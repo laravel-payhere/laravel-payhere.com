@@ -29,7 +29,7 @@
             </div>
         </div>
     </section>
-    <section class="py-20">
+    <section class="flex flex-col gap-10 py-20">
         <div class="bg-feature relative flex gap-5 overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-20 md:px-[80px] md:py-[80px]">
             <div class="max-w-2xl">
                 <h3 class="text-2xl font-semibold text-white">Simplified HTML Form Based APIs</h3>
@@ -40,6 +40,28 @@
             </div>
             <div>
                 <img class="absolute top-5 hidden w-2/5 md:block" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
+            </div>
+        </div>
+        <div class="bg-feature-reverse flex items-center justify-between gap-5 overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-20 md:px-[80px] md:py-[80px]">
+            <img class="h-10" src="{{ Vite::asset("resources/images/filament.svg") }}" alt="Filament logo" />
+            <div class="max-w-2xl">
+                <h3 class="text-2xl font-semibold text-white">Filament Panel for Manage Payments & Subscriptions</h3>
+                <p class="mt-10 text-base text-white">Our plugin includes a built-in Filament panel for managing payments and subscriptions, which allows for processing refunds, canceling subscriptions, and retrying subscriptions.</p>
+                <div class="mt-10 text-base text-white">
+                    <a href="#" class="text-base font-medium text-white transition-colors hover:underline">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-feature relative flex gap-10 overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-20 md:px-[80px] md:py-[80px]">
+            <div class="max-w-2xl">
+                <h3 class="text-2xl font-semibold text-white">Intermediate RESTful API</h3>
+                <p class="mt-10 text-base text-white">PayHere provides RESTful APIs for handling payments, refunds, and subscriptions. Our plugin comes with an intermediate API to easily connect with the PayHere API.</p>
+                <div class="mt-10 text-base text-white">
+                    <a href="#" class="text-base font-medium text-white transition-colors hover:underline">Read more</a>
+                </div>
+            </div>
+            <div>
+                <img class="absolute top-0 hidden w-2/5 md:block" src="{{ Vite::asset("resources/images/api-response.png") }}" alt="Recurring API Example" />
             </div>
         </div>
     </section>
