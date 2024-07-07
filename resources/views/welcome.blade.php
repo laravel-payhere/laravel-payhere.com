@@ -35,7 +35,7 @@
                 <h3 class="text-2xl font-semibold text-white">Simplified HTML Form Based APIs</h3>
                 <p class="mt-10 text-base text-white">PayHere offers four different types of HTML form-based APIs to suit various needs. One of these is the recurring checkout API for subscriptions (as shown on the right). It's a simple HTML form-based POST API, which you can easily implement without leaving the PHP code base.</p>
                 <div class="mt-10 text-base text-white">
-                    <a href="">Read more</a>
+                    <a href="#" class="rounded-full text-base font-medium text-white transition-colors hover:underline">Read more</a>
                 </div>
             </div>
             <div>
