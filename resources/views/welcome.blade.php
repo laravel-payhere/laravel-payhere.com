@@ -30,9 +30,9 @@
         </div>
     </section>
     <section class="py-20">
-        <div class="lp-feature relative flex overflow-hidden rounded-xl border border-white border-opacity-20 px-[80px] py-[100px]">
+        <div class="lp-feature relative flex overflow-hidden rounded-xl border border-white border-opacity-20 px-[80px] py-[140px]">
             <div class="max-w-2xl">
-                <h3 class="text-xl font-semibold text-white">Simplified HTML Form Based APIs</h3>
+                <h3 class="text-2xl font-semibold text-white">Simplified HTML Form Based APIs</h3>
                 <p class="mt-5 text-base text-white">PayHere offers four different HTML form-based API types for different use cases. One of these is a recurring checkout for subscriptions implemented as a simple HTML form-based POST API, similar to the PayHere Checkout API.</p>
             </div>
             <img class="absolute right-0 top-8 w-1/3" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
