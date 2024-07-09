@@ -65,4 +65,22 @@
             </div>
         </div>
     </section>
+    <section class="py-20">
+        <h2 class="text-center text-4xl font-bold text-white">Pay once, use forever</h2>
+        <p class="mt-5 text-center text-sm text-white opacity-70 md:text-base">Every purchase includes a perpetual fallback license that you can use forever.</p>
+        <div class="flex">
+            <div class="mt-10 bg-gray-800 px-20 py-20">
+                <span class="text-lg text-white">For unlimited projects</span>
+                <h3 class="mt-1 text-2xl font-bold text-yellow-500">Perpetual License</h3>
+                <p class="py-5 text-lg text-white">Enhance your workflow by securely integrating PayHere with your Laravel application.</p>
+                <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.30,000</span>
+            </div>
+            <div class="mt-10 bg-gray-800 px-20 py-20">
+                <span class="text-lg font-bold text-white">What's Included</span>
+                <ul class="mt-5">
+                    <li class="text-base text-white">All PayHere APIs</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 @endsection
