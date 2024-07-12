@@ -68,9 +68,9 @@
     <section class="py-20">
         <h2 class="text-center text-4xl font-bold text-white">Pay once, use forever</h2>
         <p class="mt-5 text-center text-sm text-white opacity-70 md:text-base">Every purchase includes a perpetual fallback license that you can use forever.</p>
-        <div class="mx-auto grid max-w-4xl grid-cols-3">
+        <div class="mx-auto grid max-w-5xl grid-cols-3">
             <div class="col-span-2 mt-10 flex flex-col bg-gradient-to-l from-blue-700 to-black px-20 py-20">
-                <span class="text-lg text-white">For unlimited projects</span>
+                <span class="text-base text-white">For unlimited projects</span>
                 <h3 class="mt-1 text-2xl font-bold text-yellow-500">Perpetual License</h3>
                 <p class="py-5 text-lg text-white">Enhance your workflow by securely integrating PayHere with your Laravel application.</p>
                 <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.30,000</span>
@@ -78,10 +78,93 @@
                     <a href="#" class="rounded-2xl bg-white bg-opacity-10 px-8 py-4 text-base font-semibold text-white">Buy Laravel PayHere</a>
                 </div>
             </div>
-            <div class="col-span-1 mt-10 bg-gradient-to-r from-[#FFFFFF0D] to-[#FFFFFF00] px-20 py-20">
+            <div class="center col-span-1 mt-10 bg-gradient-to-r from-[#FFFFFF0D] to-[#FFFFFF00] px-20 py-20">
                 <span class="text-lg font-bold text-white">What's Included</span>
-                <ul class="mt-5">
-                    <li class="text-base text-white">All PayHere APIs</li>
+                <ul class="mt-5 flex flex-col gap-1">
+                    <li class="inline-flex items-center gap-2 text-base text-white">
+                        <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_152_202)">
+                                <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_152_202">
+                                    <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        All PayHere APIs
+                    </li>
+                    <li class="inline-flex items-center gap-2 text-base text-white">
+                        <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_152_202)">
+                                <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_152_202">
+                                    <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Webhook protection
+                    </li>
+                    <li class="inline-flex items-center gap-2 text-base text-white">
+                        <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_152_202)">
+                                <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_152_202">
+                                    <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Filament panel
+                    </li>
+                    <li class="inline-flex items-center gap-2 text-base text-white">
+                        <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_152_202)">
+                                <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_152_202">
+                                    <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        1 year of updates
+                    </li>
+                    <li class="inline-flex items-center gap-2 text-base text-white">
+                        <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_152_202)">
+                                <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_152_202">
+                                    <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Email support
+                    </li>
+                    <li class="inline-flex items-center gap-2 text-base text-white">
+                        <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_152_202)">
+                                <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_152_202">
+                                    <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Repository access
+                    </li>
                 </ul>
             </div>
         </div>
