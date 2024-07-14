@@ -3,14 +3,14 @@
 @section("content")
     <section class="py-10 lg:py-20">
         <div class="flex flex-col gap-5 text-start md:items-center lg:gap-10">
-            <h1 class="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+            <h1 class="text-3xl font-bold text-white md:text-4xl lg:text-6xl">
                 <span class="inline-flex">
                     Pay
                     <span class="text-yellow-500">Here</span>
                 </span>
                 for Laravel
             </h1>
-            <p class="text-start text-sm leading-7 text-white md:text-center md:text-base">Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin.</p>
+            <p class="text-start leading-7 text-white md:text-center md:text-lg lg:text-xl">Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin.</p>
             <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
