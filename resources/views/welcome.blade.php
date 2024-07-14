@@ -78,7 +78,7 @@
                     <a href="#" class="rounded-2xl bg-white bg-opacity-10 px-8 py-4 text-base font-semibold text-white">Buy Laravel PayHere</a>
                 </div>
             </div>
-            <div class="center col-span-1 mt-10 bg-gradient-to-r from-[#FFFFFF0D] to-[#FFFFFF00] px-20 py-20">
+            <div class="col-span-1 mt-10 place-content-center bg-gradient-to-r from-[#FFFFFF0D] to-[#FFFFFF00] px-20 py-20">
                 <span class="text-lg font-bold text-white">What's Included</span>
                 <ul class="mt-5 flex flex-col gap-1">
                     <li class="inline-flex items-center gap-2 text-base text-white">
