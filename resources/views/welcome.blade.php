@@ -71,8 +71,8 @@
         <div class="mx-auto grid max-w-5xl grid-cols-3">
             <div class="col-span-2 mt-10 flex flex-col bg-gradient-to-l from-blue-700 px-20 py-20">
                 <span class="text-base text-white">For unlimited projects</span>
-                <h3 class="mt-1 text-2xl font-bold text-yellow-500">Perpetual License</h3>
-                <p class="py-5 text-lg text-white">Enhance your workflow by securely integrating PayHere with your Laravel application.</p>
+                <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
+                <p class="py-5 text-lg text-white">Easily integrate PayHere into your Laravel application like a pro.</p>
                 <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.30,000</span>
                 <div class="mt-10">
                     <a href="#" class="rounded-2xl bg-white bg-opacity-10 px-8 py-4 text-base font-semibold text-white">Buy Laravel PayHere</a>
