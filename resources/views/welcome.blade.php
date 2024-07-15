@@ -1,7 +1,7 @@
 @extends("layouts.app")
 
 @section("content")
-    <section class="py-10 lg:py-20">
+    <section class="px-5 py-10 md:px-0 lg:py-20">
         <div class="flex flex-col gap-5 text-start md:items-center lg:gap-10">
             <h1 class="text-3xl font-bold text-white md:text-4xl lg:text-6xl">
                 <span class="inline-flex">
@@ -14,7 +14,7 @@
             <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
-    <section class="py-20">
+    <section class="px-5 py-20 md:px-0">
         <div class="flex flex-col items-center gap-5">
             <h2 class="text-xl text-white md:text-2xl lg:text-3xl">
                 Built with the
@@ -29,7 +29,7 @@
             </div>
         </div>
     </section>
-    <section class="flex flex-col gap-10 py-20">
+    <section class="flex flex-col gap-10 px-5 py-20 md:px-0">
         <div class="bg-feature relative flex gap-5 overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-20 md:px-[80px] md:py-[80px]">
             <div class="max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Simplified HTML Form Based APIs</h3>
@@ -65,7 +65,7 @@
             </div>
         </div>
     </section>
-    <section class="py-20">
+    <section class="px-5 py-20 md:px-0">
         <h2 class="text-center text-4xl font-bold text-white">Pay once, use forever</h2>
         <p class="mt-5 text-center text-base text-white opacity-70 md:text-lg">Every purchase includes a perpetual fallback license that you can use forever.</p>
         <div class="mx-auto grid max-w-5xl grid-cols-1 md:grid-cols-3">

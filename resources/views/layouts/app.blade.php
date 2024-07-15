@@ -22,8 +22,8 @@
             <img src="{{ Vite::asset("resources/images/hero-background.png") }}" class="opacity-80" alt="Hero Background" />
         </div>
         <div class="absolute top-0 w-full">
-            <div class="mx-auto max-w-7xl px-5">
-                <header>
+            <div class="mx-auto max-w-7xl">
+                <header class="px-5 md:px-0">
                     <nav class="flex items-center justify-between py-5">
                         <a href="{{ config("app.url") }}">
                             <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
@@ -41,7 +41,7 @@
                     @yield("content")
                 </main>
 
-                <footer class="mt-20 flex flex-col items-start gap-3 py-8 md:items-center md:gap-5 md:py-8">
+                <footer class="mt-20 flex flex-col items-start gap-3 px-5 py-8 md:items-center md:gap-5 md:px-0 md:py-8">
                     <a href="{{ config("app.url") }}">
                         <img src="{{ Vite::asset("resources/images/logo@2.svg") }}" class="h-6 md:h-8" alt="Laravel PayHere Logo" />
                     </a>
