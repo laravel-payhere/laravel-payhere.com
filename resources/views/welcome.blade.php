@@ -78,8 +78,8 @@
                     <a href="#" class="rounded-2xl bg-white bg-opacity-10 px-8 py-4 text-base font-semibold text-white">Buy Laravel PayHere</a>
                 </div>
             </div>
-            <div class="col-span-1 mt-10 place-content-center bg-gradient-to-r from-[#FFFFFF0D] to-[#FFFFFF00] px-20 py-20">
-                <span class="text-lg font-bold text-white">What's Included</span>
+            <div class="col-span-1 place-content-center bg-transparent bg-gradient-to-r from-black to-blue-700 px-5 md:mt-10 md:from-[#FFFFFF0D] md:to-[#FFFFFF00] md:px-20 md:py-20">
+                <span class="hidden text-lg font-bold text-white md:block">What's Included</span>
                 <ul class="mt-5 flex flex-col gap-1">
                     <li class="inline-flex items-center gap-2 text-base text-white">
                         <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
