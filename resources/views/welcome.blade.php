@@ -65,11 +65,11 @@
             </div>
         </div>
     </section>
-    <section class="px-5 py-20 md:px-0">
+    <section class="py-20">
         <h2 class="text-center text-4xl font-bold text-white">Pay once, use forever</h2>
         <p class="mt-5 text-center text-base text-white opacity-70 md:text-lg">Every purchase includes a perpetual fallback license that you can use forever.</p>
         <div class="mx-auto grid max-w-5xl grid-cols-1 md:grid-cols-3">
-            <div class="col-span-2 mt-10 flex flex-col from-blue-700 px-0 py-20 md:bg-gradient-to-l md:px-20">
+            <div class="col-span-2 mt-10 flex flex-col bg-gradient-to-l from-blue-700 px-5 py-20 md:px-20">
                 <span class="text-base text-white">For unlimited projects</span>
                 <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
                 <p class="py-5 text-lg text-white">Easily integrate PayHere into your Laravel application like a pro.</p>
