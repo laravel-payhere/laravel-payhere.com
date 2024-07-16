@@ -16,7 +16,7 @@
     </section>
     <section class="px-5 py-20 md:px-0">
         <div class="flex flex-col items-center gap-5">
-            <h2 class="text-xl text-white md:text-2xl lg:text-3xl">
+            <h2 class="text-xl text-white md:text-2xl lg:text-4xl">
                 Built with the
                 <strong>TALL Stack</strong>
             </h2>
