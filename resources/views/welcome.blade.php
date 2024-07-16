@@ -29,7 +29,7 @@
             </div>
         </div>
     </section>
-    <section class="flex flex-col gap-10 px-5 py-20 md:px-0">
+    <section class="flex flex-col gap-10 py-20">
         <div class="bg-feature relative flex gap-5 overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-14 md:px-[80px] md:py-[80px]">
             <div class="max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Simplified HTML Form Based APIs</h3>
@@ -60,7 +60,7 @@
                     <a href="#" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
-            <div class="ml-5">
+            <div class="ml-0 md:ml-5">
                 <img class="absolute top-0 hidden w-2/5 md:block" src="{{ Vite::asset("resources/images/api-response.png") }}" alt="Recurring API Example" />
             </div>
         </div>
