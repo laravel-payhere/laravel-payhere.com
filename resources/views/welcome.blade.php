@@ -38,7 +38,7 @@
                     <a href="#" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
-            <div>
+            <div class="ml-5">
                 <img class="absolute top-5 hidden w-2/5 md:block" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
             </div>
         </div>
@@ -60,7 +60,7 @@
                     <a href="#" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
-            <div>
+            <div class="ml-5">
                 <img class="absolute top-0 hidden w-2/5 md:block" src="{{ Vite::asset("resources/images/api-response.png") }}" alt="Recurring API Example" />
             </div>
         </div>
