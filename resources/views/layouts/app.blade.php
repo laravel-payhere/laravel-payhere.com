@@ -23,7 +23,7 @@
         </div>
         <div class="absolute top-0 w-full">
             <div class="mx-auto max-w-7xl">
-                <header class="px-5 md:px-0">
+                <header class="px-5 xl:px-0">
                     <nav class="flex items-center justify-between py-5">
                         <a href="{{ config("app.url") }}">
                             <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
