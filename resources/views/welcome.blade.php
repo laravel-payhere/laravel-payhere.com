@@ -14,7 +14,7 @@
             <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
-    <section class="px-5 pb-10 md:px-0 md:pb-20">
+    <section class="px-5 py-10 md:px-0 md:py-20">
         <div class="flex flex-col">
             <h2 class="text-center text-2xl font-semibold text-white md:text-3xl xl:text-4xl">Built with the TALL Stack</h2>
             <p class="mt-2 text-center text-sm text-white opacity-70 md:text-base xl:text-lg">We use cutting-edge technologies to deliver the best user experience.</p>
