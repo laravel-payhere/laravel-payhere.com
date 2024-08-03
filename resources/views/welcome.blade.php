@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="ml-5 hidden xl:block">
-                <img class="absolute top-5 w-2/5" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
+                <img class="absolute top-10 w-2/5" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
             </div>
         </div>
         <div class="bg-feature-reverse flex items-center justify-between overflow-hidden rounded-none border border-white border-opacity-20 px-5 py-14 md:rounded-xl md:px-10 lg:px-[80px] lg:py-[80px]">
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="ml-0 hidden md:ml-5 xl:block">
-                <img class="absolute top-0 w-2/5" src="{{ Vite::asset("resources/images/api-response.png") }}" alt="Recurring API Example" />
+                <img class="absolute top-5 w-2/5" src="{{ Vite::asset("resources/images/api-response.png") }}" alt="Recurring API Example" />
             </div>
         </div>
     </section>
