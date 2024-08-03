@@ -26,22 +26,22 @@
             </div>
         </div>
     </section>
-    <section class="flex flex-col gap-10 py-20">
-        <div class="bg-feature relative flex gap-5 overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-14 md:px-[80px] md:py-[80px]">
-            <div class="max-w-2xl">
+    <section class="flex flex-col gap-10 px-0 py-20 md:px-10">
+        <div class="bg-feature relative flex gap-5 overflow-hidden rounded-none border border-white border-opacity-20 px-10 py-14 md:rounded-xl xl:px-[80px] xl:py-[80px]">
+            <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Simplified HTML Form Based APIs</h3>
                 <p class="mt-10 text-sm text-white md:text-base">PayHere offers four different types of HTML form-based APIs to suit various needs. One of these is the recurring checkout API for subscriptions (as shown on the right). It's a simple HTML form-based POST API, which you can easily implement without leaving the PHP code base.</p>
                 <div class="mt-10">
                     <a href="#" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
-            <div class="ml-5">
-                <img class="absolute top-5 hidden w-2/5 md:block" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
+            <div class="ml-5 hidden xl:block">
+                <img class="absolute top-5 w-2/5" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
             </div>
         </div>
-        <div class="bg-feature-reverse flex items-center justify-between overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-14 md:px-[80px] md:py-[80px]">
-            <img class="hidden h-14 md:block" src="{{ Vite::asset("resources/images/filament.svg") }}" alt="Filament logo" />
-            <div class="max-w-2xl">
+        <div class="bg-feature-reverse flex items-center justify-between overflow-hidden rounded-none border border-white border-opacity-20 px-10 py-14 md:rounded-xl xl:px-[80px] xl:py-[80px]">
+            <img class="hidden h-14 xl:block" src="{{ Vite::asset("resources/images/filament.svg") }}" alt="Filament logo" />
+            <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Filament Panel for Manage Payments & Subscriptions</h3>
                 <p class="mt-10 text-sm text-white md:text-base">Our plugin includes a built-in Filament panel for managing payments and subscriptions, which allows for processing refunds, canceling subscriptions, and retrying subscriptions.</p>
                 <div class="mt-10">
@@ -49,16 +49,16 @@
                 </div>
             </div>
         </div>
-        <div class="bg-feature relative flex gap-10 overflow-hidden rounded-xl border border-white border-opacity-20 px-10 py-14 md:px-[80px] md:py-[80px]">
-            <div class="max-w-2xl">
+        <div class="bg-feature relative flex gap-10 overflow-hidden rounded-none border border-white border-opacity-20 px-10 py-14 md:rounded-xl xl:px-[80px] xl:py-[80px]">
+            <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Intermediate RESTful API</h3>
                 <p class="mt-10 text-sm text-white md:text-base">PayHere provides RESTful APIs for handling payments, refunds, and subscriptions. Our plugin comes with an intermediate API to easily connect with the PayHere API.</p>
                 <div class="mt-10">
                     <a href="#" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
-            <div class="ml-0 md:ml-5">
-                <img class="absolute top-0 hidden w-2/5 md:block" src="{{ Vite::asset("resources/images/api-response.png") }}" alt="Recurring API Example" />
+            <div class="ml-0 hidden md:ml-5 xl:block">
+                <img class="absolute top-0 w-2/5" src="{{ Vite::asset("resources/images/api-response.png") }}" alt="Recurring API Example" />
             </div>
         </div>
     </section>
