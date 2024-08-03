@@ -66,7 +66,7 @@
         <h2 class="text-center text-2xl font-semibold text-white md:text-3xl xl:text-4xl">Pay once, use forever</h2>
         <p class="mt-2 text-center text-sm text-white opacity-70 md:text-base xl:text-lg">Every purchase includes a perpetual fallback license that you can use forever.</p>
         <div class="mx-auto grid max-w-5xl grid-cols-1 lg:grid-cols-3">
-            <div class="col-span-2 mt-10 flex flex-col bg-gradient-to-l from-blue-700 px-5 pb-5 pt-10 md:px-20 xl:py-20">
+            <div class="col-span-2 mt-10 flex flex-col bg-gradient-to-l from-blue-700 px-5 pb-5 pt-10 md:px-20 lg:py-20">
                 <span class="text-sm text-white lg:text-base">For unlimited projects</span>
                 <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
                 <p class="py-5 text-white md:text-base lg:text-lg">Easily integrate PayHere into your Laravel application like a pro.</p>
