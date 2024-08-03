@@ -24,9 +24,7 @@
         <div class="absolute top-0 w-full">
             <div class="mx-auto max-w-7xl">
                 <header class="px-5 xl:px-0">
-                    <nav
-                        x-data="{ open: false }"
-                        class="flex items-start justify-between py-5 lg:items-center">
+                    <nav x-data="{ open: false }" class="flex items-start justify-between py-5 lg:items-center">
                         <a href="{{ config("app.url") }}">
                             <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
                         </a>
@@ -35,8 +33,8 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
                         </button>
-                        <div x-cloak x-ref="links" class="hidden lg:inline-flex gap-8">
-                            <a href="#" class="px-4 rounded-full py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Features</a>
+                        <div x-cloak x-ref="links" class="hidden gap-8 lg:inline-flex">
+                            <a href="#" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Features</a>
                             <a href="#" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Docs</a>
                             <a href="#" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Changelog</a>
                             <a href="#" class="rounded-xl bg-white bg-opacity-10 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-opacity-15">Purchase a license</a>
