@@ -67,9 +67,9 @@
         <p class="mt-2 text-center text-sm text-white opacity-70 md:text-base xl:text-lg">Every purchase includes a perpetual fallback license that you can use forever.</p>
         <div class="mx-auto grid max-w-5xl grid-cols-1 lg:grid-cols-3">
             <div class="col-span-2 mt-10 flex flex-col bg-gradient-to-l from-blue-700 px-5 pb-5 pt-10 md:px-20 xl:py-20">
-                <span class="text-base text-white">For unlimited projects</span>
+                <span class="text-sm text-white lg:text-base">For unlimited projects</span>
                 <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
-                <p class="py-5 text-lg text-white">Easily integrate PayHere into your Laravel application like a pro.</p>
+                <p class="py-5 text-white md:text-base lg:text-lg">Easily integrate PayHere into your Laravel application like a pro.</p>
                 <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.30,000</span>
                 <div class="mt-10">
                     <a href="#" class="rounded-2xl bg-white bg-opacity-10 px-8 py-4 text-base font-semibold text-white">Buy Laravel PayHere</a>
@@ -78,7 +78,7 @@
             <div class="col-span-1 place-content-center bg-transparent bg-gradient-to-r from-black to-blue-700 px-5 pb-10 md:px-20 lg:mt-10 lg:from-[#FFFFFF0D] lg:to-[#FFFFFF00] lg:py-20">
                 <span class="hidden text-lg font-bold text-white lg:block">What's Included</span>
                 <ul class="mt-5 flex flex-row flex-wrap gap-x-5 gap-y-1 lg:flex-col lg:flex-nowrap lg:gap-1">
-                    <li class="inline-flex items-center gap-2 text-base text-white">
+                    <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
                         <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_152_202)">
                                 <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
@@ -92,7 +92,7 @@
                         </svg>
                         All PayHere APIs
                     </li>
-                    <li class="inline-flex items-center gap-2 text-base text-white">
+                    <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
                         <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_152_202)">
                                 <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
@@ -106,7 +106,7 @@
                         </svg>
                         Webhook protection
                     </li>
-                    <li class="inline-flex items-center gap-2 text-base text-white">
+                    <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
                         <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_152_202)">
                                 <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
@@ -120,7 +120,7 @@
                         </svg>
                         Filament panel
                     </li>
-                    <li class="inline-flex items-center gap-2 text-base text-white">
+                    <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
                         <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_152_202)">
                                 <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
@@ -134,7 +134,7 @@
                         </svg>
                         1 year of updates
                     </li>
-                    <li class="inline-flex items-center gap-2 text-base text-white">
+                    <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
                         <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_152_202)">
                                 <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
@@ -148,7 +148,7 @@
                         </svg>
                         Email support
                     </li>
-                    <li class="inline-flex items-center gap-2 text-base text-white">
+                    <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
                         <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_152_202)">
                                 <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
