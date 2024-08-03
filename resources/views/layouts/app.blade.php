@@ -19,7 +19,7 @@
     </head>
     <body class="bg-black font-sans antialiased">
         <div class="bg-gradient-to-b from-blue-700 to-black">
-            <img src="{{ Vite::asset("resources/images/hero-background.png") }}" class="opacity-80" alt="Hero Background" />
+            <div class="z-20 h-[500px] bg-[url('/resources/images/hero-background.png')] opacity-80 lg:h-[1000px]" />
         </div>
         <div class="absolute top-0 w-full">
             <div class="mx-auto max-w-7xl">
