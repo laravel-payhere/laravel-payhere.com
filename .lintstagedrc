@@ -1,3 +1,3 @@
 {
-    "*/resources/views/*.{js,php}": ["npm run format"]
+    "*.{js,php}": ["npm run format"]
 }
