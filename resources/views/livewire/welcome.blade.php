@@ -1,6 +1,4 @@
-@extends("layouts.app")
-
-@section("content")
+<div>
     <section class="px-5 py-10 lg:py-20 xl:px-0">
         <div class="flex flex-col gap-5 text-start md:items-center lg:gap-10">
             <h1 class="text-3xl font-bold text-white md:text-4xl lg:text-6xl">
@@ -166,4 +164,4 @@
             </div>
         </div>
     </section>
-@endsection
+</div>
