@@ -33,7 +33,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
                         </button>
-                        <div x-cloak x-ref="links" class="hidden gap-8 lg:inline-flex">
+                        <div x-cloak x-show="open" x-transition:enter="transition duration-300 ease-in-out" x-transition:enter-start="translate-x-full" x-transition:enter-end="translate-x-0" x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-full" :class="open ? 'fixed top-0 right-0 h-full z-50 bg-black p-10 flex flex-col' : 'hidden lg:inline-flex'" class="gap-8">
                             <a href="#" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Features</a>
                             <a href="#" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Docs</a>
                             <a href="#" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Changelog</a>
