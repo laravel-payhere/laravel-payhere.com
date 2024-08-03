@@ -62,7 +62,7 @@
             </div>
         </div>
     </section>
-    <section class="px-5 py-10 md:px-0 md:py-20">
+    <section class="px-0 py-10 md:px-0 md:py-20">
         <h2 class="text-center text-2xl font-semibold text-white md:text-3xl xl:text-4xl">Pay once, use forever</h2>
         <p class="mt-2 text-center text-sm text-white opacity-70 md:text-base xl:text-lg">Every purchase includes a perpetual fallback license that you can use forever.</p>
         <div class="mx-auto grid max-w-5xl grid-cols-1 lg:grid-cols-3">
