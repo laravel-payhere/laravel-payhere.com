@@ -16,8 +16,8 @@
     </section>
     <section class="px-5 py-20 md:px-0">
         <div class="flex flex-col">
-            <h2 class="text-center text-xl font-semibold text-white md:text-2xl lg:text-4xl">Built with the TALL Stack</h2>
-            <p class="mt-2 text-center text-sm text-white opacity-70 md:text-lg">We use cutting-edge technologies to deliver the best user experience.</p>
+            <h2 class="text-center text-2xl font-semibold text-white md:text-3xl xl:text-4xl">Built with the TALL Stack</h2>
+            <p class="mt-2 text-center text-sm text-white opacity-70 md:text-base xl:text-lg">We use cutting-edge technologies to deliver the best user experience.</p>
             <div class="mx-auto mt-14 grid w-full max-w-5xl grid-cols-2 items-center justify-between justify-items-stretch gap-y-8 px-8 md:grid-cols-4 md:px-0 xl:flex">
                 <img class="h-7" src="{{ Vite::asset("resources/images/laravel.svg") }}" alt="Laravel" />
                 <img class="h-9" src="{{ Vite::asset("resources/images/alpinejs.svg") }}" alt="Alpine.js" />
@@ -63,8 +63,8 @@
         </div>
     </section>
     <section class="px-5 py-20 md:px-0">
-        <h2 class="text-center text-xl font-semibold text-white md:text-2xl lg:text-4xl">Pay once, use forever</h2>
-        <p class="mt-2 text-center text-sm text-white opacity-70 md:text-lg">Every purchase includes a perpetual fallback license that you can use forever.</p>
+        <h2 class="text-center text-2xl font-semibold text-white md:text-3xl xl:text-4xl">Pay once, use forever</h2>
+        <p class="mt-2 text-center text-sm text-white opacity-70 md:text-base xl:text-lg">Every purchase includes a perpetual fallback license that you can use forever.</p>
         <div class="mx-auto grid max-w-5xl grid-cols-1 lg:grid-cols-3">
             <div class="col-span-2 mt-10 flex flex-col bg-gradient-to-l from-blue-700 px-5 pb-5 pt-10 md:px-20 xl:py-20">
                 <span class="text-base text-white">For unlimited projects</span>
