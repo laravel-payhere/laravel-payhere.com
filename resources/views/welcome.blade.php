@@ -14,7 +14,7 @@
             <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
-    <section class="px-5 py-20 md:px-0">
+    <section class="px-5 py-10 md:px-0 md:py-20">
         <div class="flex flex-col">
             <h2 class="text-center text-2xl font-semibold text-white md:text-3xl xl:text-4xl">Built with the TALL Stack</h2>
             <p class="mt-2 text-center text-sm text-white opacity-70 md:text-base xl:text-lg">We use cutting-edge technologies to deliver the best user experience.</p>
@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <section class="flex flex-col gap-10 px-0 py-20 md:px-10">
+    <section class="flex flex-col gap-10 px-0 py-10 md:px-10 md:py-20">
         <div class="bg-feature relative flex gap-5 overflow-hidden rounded-none border border-white border-opacity-20 px-5 py-14 md:rounded-xl md:px-10 lg:px-[80px] lg:py-[80px]">
             <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Simplified HTML Form Based APIs</h3>
@@ -62,7 +62,7 @@
             </div>
         </div>
     </section>
-    <section class="px-5 py-20 md:px-0">
+    <section class="px-5 py-10 md:px-0 md:py-20">
         <h2 class="text-center text-2xl font-semibold text-white md:text-3xl xl:text-4xl">Pay once, use forever</h2>
         <p class="mt-2 text-center text-sm text-white opacity-70 md:text-base xl:text-lg">Every purchase includes a perpetual fallback license that you can use forever.</p>
         <div class="mx-auto grid max-w-5xl grid-cols-1 lg:grid-cols-3">

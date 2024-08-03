@@ -41,7 +41,7 @@
                     @yield("content")
                 </main>
 
-                <footer class="mt-20 flex flex-col items-start gap-3 px-5 py-8 md:items-center md:gap-5 md:px-0 md:py-8">
+                <footer class="mt-0 flex flex-col items-start gap-3 px-5 py-8 md:items-center md:gap-5 md:px-0 md:py-8 lg:mt-20">
                     <a href="{{ config("app.url") }}">
                         <img src="{{ Vite::asset("resources/images/logo@2.svg") }}" class="h-6 md:h-8" alt="Laravel PayHere Logo" />
                     </a>
