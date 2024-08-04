@@ -12,7 +12,7 @@
             <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
-    <section class="px-5 py-10 md:px-0 md:py-20">
+    <section class="px-10 py-10 md:py-20 lg:px-0">
         <div class="flex flex-col">
             <h2 class="text-center text-2xl font-semibold text-white md:text-3xl xl:text-4xl">Built with the TALL Stack</h2>
             <p class="mt-2 text-center text-sm text-white opacity-70 md:text-base xl:text-lg">We use cutting-edge technologies to deliver the best user experience.</p>
@@ -25,7 +25,7 @@
         </div>
     </section>
     <section class="flex flex-col gap-10 px-0 py-10 md:px-10 md:py-20">
-        <div class="bg-feature relative flex gap-5 overflow-hidden rounded-none border border-white border-opacity-20 px-5 py-14 md:rounded-xl md:px-10 lg:px-[80px] lg:py-[80px]">
+        <div class="bg-feature relative flex gap-5 overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
             <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Simplified HTML Form Based APIs</h3>
                 <p class="mt-10 text-sm text-white md:text-base">PayHere offers four different types of HTML form-based APIs to suit various needs. One of these is the recurring checkout API for subscriptions (as shown on the right). It's a simple HTML form-based POST API, which you can easily implement without leaving the PHP code base.</p>
@@ -37,7 +37,7 @@
                 <img class="absolute top-10 w-2/5" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
             </div>
         </div>
-        <div class="bg-feature-reverse flex items-center justify-between overflow-hidden rounded-none border border-white border-opacity-20 px-5 py-14 md:rounded-xl md:px-10 lg:px-[80px] lg:py-[80px]">
+        <div class="bg-feature-reverse flex items-center justify-between overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
             <img class="hidden h-14 xl:block" src="{{ Vite::asset("resources/images/filament.svg") }}" alt="Filament logo" />
             <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Filament Panel for Manage Payments & Subscriptions</h3>
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-feature relative flex gap-10 overflow-hidden rounded-none border border-white border-opacity-20 px-5 py-14 md:rounded-xl md:px-10 lg:px-[80px] lg:py-[80px]">
+        <div class="bg-feature relative flex gap-10 overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
             <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Intermediate RESTful API</h3>
                 <p class="mt-10 text-sm text-white md:text-base">PayHere provides RESTful APIs for handling payments, refunds, and subscriptions. Our plugin comes with an intermediate API to easily connect with the PayHere API.</p>
