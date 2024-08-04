@@ -18,7 +18,7 @@
         @vite(["resources/css/app.css", "resources/js/app.js"])
     </head>
     <body class="h-screen bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased">
-        <main class="grid h-full grid-cols-3">
+        <main class="mx-auto grid h-full max-w-screen-2xl grid-cols-3">
             <div class="col-span-1 h-full place-content-center px-14 py-10">
                 <a href="/">
                     <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
