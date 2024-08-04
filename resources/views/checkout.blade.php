@@ -36,16 +36,16 @@
                     <form action="#">
                         <div class="text-lg font-semibold text-white">Please enter your details</div>
                         <p class="mt-2 text-sm text-white">We collect this information to process your license and send it to you.</p>
-                        <div class="mt-10 flex flex-col gap-10">
+                        <div class="mt-10 flex flex-col gap-5">
                             <div class="flex flex-col gap-2">
                                 <label for="name" class="text-base text-white">Your name</label>
-                                <input type="text" class="rounded border border-white border-opacity-15 bg-black bg-opacity-15 py-1.5" />
+                                <input id="name" name="name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" />
                             </div>
                             <div class="flex flex-col gap-2">
-                                <label for="name" class="text-base text-white">Email address</label>
-                                <input type="text" class="rounded border border-white border-opacity-15 bg-black bg-opacity-15 py-1.5" />
+                                <label for="email" class="text-base text-white">Email address</label>
+                                <input id="email" name="email" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" />
                             </div>
-                            <button type="submit" class="w-full rounded-lg bg-yellow-500 py-3 font-semibold">Continue</button>
+                            <button type="submit" class="mt-5 w-full rounded-lg bg-yellow-500 py-2 font-semibold">Continue</button>
                         </div>
                     </form>
                 </div>
