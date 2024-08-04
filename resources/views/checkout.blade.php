@@ -17,9 +17,9 @@
         <!-- Scripts -->
         @vite(["resources/css/app.css", "resources/js/app.js"])
     </head>
-    <body class="h-screen bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased">
+    <body class="h-auto bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased lg:h-screen">
         <main class="mx-auto grid h-full max-w-screen-2xl grid-cols-1 lg:grid-cols-3">
-            <div class="col-span-1 h-full place-content-start px-14 py-10">
+            <div class="col-span-1 h-full place-content-start px-10 py-10 lg:px-14">
                 <div>
                     <a href="/">
                         <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
@@ -52,14 +52,14 @@
                     </form>
                 </div>
             </div>
-            <div class="col-span-2 h-full place-content-start bg-black bg-opacity-20 px-14 pb-10 pt-0 md:pl-20 md:pt-[15rem]">
+            <div class="col-span-2 h-full place-content-start bg-black bg-opacity-20 px-10 pb-10 pt-10 lg:px-14 lg:pl-20 lg:pt-[15rem]">
                 <div class="flex flex-col">
                     <span class="text-sm text-white lg:text-base">For unlimited projects</span>
                     <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
                     <p class="py-5 text-white md:text-base lg:text-lg">Easily integrate PayHere into your Laravel application like a pro.</p>
                     <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.30,000</span>
                     <div class="mt-10 flex gap-5">
-                        <ul class="flex flex-row flex-wrap gap-x-5 gap-y-1 lg:flex-col lg:flex-nowrap lg:gap-1">
+                        <ul class="flex flex-row flex-wrap gap-x-5 gap-y-2 lg:flex-col lg:flex-nowrap lg:gap-1">
                             <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
                                 <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_152_202)">
