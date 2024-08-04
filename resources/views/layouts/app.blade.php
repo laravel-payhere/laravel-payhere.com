@@ -25,7 +25,7 @@
             <div class="mx-auto max-w-7xl">
                 <header class="px-5 xl:px-0">
                     <nav x-data="{ open: false }" class="flex items-start justify-between py-5 lg:items-center">
-                        <a href="{{ config("app.url") }}">
+                        <a href="/">
                             <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
                         </a>
                         <button type="button" @click="open = !open" class="block lg:hidden">

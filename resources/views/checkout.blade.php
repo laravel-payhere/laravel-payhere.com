@@ -20,7 +20,7 @@
     <body class="h-screen bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased">
         <main class="grid h-full grid-cols-3">
             <div class="col-span-1 h-full place-content-center px-14 py-10">
-                <a href="{{ config("app.url") }}">
+                <a href="/">
                     <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
                 </a>
                 <nav aria-label="breadcrumb" class="mt-10">
