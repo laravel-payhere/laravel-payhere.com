@@ -56,6 +56,96 @@
                     <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
                     <p class="py-5 text-white md:text-base lg:text-lg">Easily integrate PayHere into your Laravel application like a pro.</p>
                     <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.30,000</span>
+                    <div class="mt-10 flex gap-5">
+                        <ul class="flex flex-row flex-wrap gap-x-5 gap-y-1 lg:flex-col lg:flex-nowrap lg:gap-1">
+                            <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
+                                <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_152_202)">
+                                        <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                        <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_152_202">
+                                            <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                All PayHere APIs
+                            </li>
+                            <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
+                                <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_152_202)">
+                                        <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                        <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_152_202">
+                                            <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                Webhook protection
+                            </li>
+                            <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
+                                <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_152_202)">
+                                        <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                        <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_152_202">
+                                            <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                Filament panel
+                            </li>
+                        </ul>
+                        <ul class="flex flex-row flex-wrap gap-x-5 gap-y-1 lg:flex-col lg:flex-nowrap lg:gap-1">
+                            <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
+                                <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_152_202)">
+                                        <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                        <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_152_202">
+                                            <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                1 year of updates
+                            </li>
+                            <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
+                                <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_152_202)">
+                                        <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                        <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_152_202">
+                                            <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                Email support
+                            </li>
+                            <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
+                                <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_152_202)">
+                                        <path d="M13.5 26.2275C20.6799 26.2275 26.5 20.4074 26.5 13.2275C26.5 6.04764 20.6799 0.227539 13.5 0.227539C6.3201 0.227539 0.5 6.04764 0.5 13.2275C0.5 20.4074 6.3201 26.2275 13.5 26.2275Z" fill="#2447D7" />
+                                        <path d="M7.6167 14.0681L10.9785 17.4299L19.3831 9.02539" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_152_202">
+                                            <rect width="26" height="26" fill="white" transform="translate(0.5 0.227539)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                Repository access
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </main>
