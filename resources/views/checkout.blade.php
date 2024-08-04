@@ -19,19 +19,21 @@
     </head>
     <body class="h-screen bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased">
         <main class="mx-auto grid h-full max-w-screen-2xl grid-cols-3">
-            <div class="col-span-1 h-full place-content-center px-14 py-10">
-                <a href="/">
-                    <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
-                </a>
-                <nav aria-label="breadcrumb" class="mt-10">
-                    <ol class="inline-flex items-center gap-2 text-sm">
-                        <li class="font-semibold text-white"><a href="/">Home</a></li>
-                        <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4.8125 3.125L9.1875 7.5L4.8125 11.875" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        <li class="font-semibold text-yellow-500" aria-current="page">Payment</li>
-                    </ol>
-                </nav>
+            <div class="col-span-1 h-full place-content-start px-14 py-10">
+                <div>
+                    <a href="/">
+                        <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
+                    </a>
+                    <nav aria-label="breadcrumb" class="mt-10">
+                        <ol class="inline-flex items-center gap-2 text-sm">
+                            <li class="font-semibold text-white"><a href="/">Home</a></li>
+                            <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.8125 3.125L9.1875 7.5L4.8125 11.875" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <li class="font-semibold text-yellow-500" aria-current="page">Payment</li>
+                        </ol>
+                    </nav>
+                </div>
                 <div class="mt-20">
                     <form action="#">
                         <div class="text-lg font-semibold text-white">Please enter your details</div>
@@ -50,7 +52,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-span-2 h-full place-content-center bg-black bg-opacity-20 pl-20">
+            <div class="col-span-2 h-full place-content-start bg-black bg-opacity-20 pl-20 pt-[15rem]">
                 <div class="flex flex-col">
                     <span class="text-sm text-white lg:text-base">For unlimited projects</span>
                     <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
