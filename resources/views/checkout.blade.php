@@ -19,8 +19,8 @@
     </head>
     <body class="h-auto bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased lg:h-screen">
         <main class="mx-auto grid h-full max-w-screen-2xl grid-cols-1 lg:grid-cols-3">
-            <div class="col-span-1 h-full place-content-start px-10 py-10 lg:px-14">
-                <div>
+            <div class="order-2 col-span-1 h-full place-content-start px-10 py-10 lg:order-1 lg:px-14">
+                <div class="hidden lg:block">
                     <a href="/">
                         <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
                     </a>
@@ -34,10 +34,10 @@
                         </ol>
                     </nav>
                 </div>
-                <div class="mt-20">
+                <div class="mt-0 lg:mt-20">
                     <form action="#">
-                        <div class="text-lg font-semibold text-white">Please enter your details</div>
-                        <p class="mt-2 text-sm text-white">We collect this information to process your license and send it to you.</p>
+                        <div class="text-base font-semibold text-white md:text-lg">Please enter your details</div>
+                        <p class="mt-2 text-xs text-white md:text-sm">We collect this information to process your license and send it to you.</p>
                         <div class="mt-10 flex flex-col gap-5">
                             <div class="flex flex-col gap-2">
                                 <label for="name" class="text-base text-white">Your name</label>
@@ -52,14 +52,28 @@
                     </form>
                 </div>
             </div>
-            <div class="col-span-2 h-full place-content-start bg-black bg-opacity-20 px-10 pb-10 pt-10 lg:px-14 lg:pl-20 lg:pt-[15rem]">
-                <div class="flex flex-col">
+            <div class="order-1 col-span-2 h-full place-content-start bg-none px-10 pb-10 pt-10 lg:order-2 lg:bg-black lg:bg-opacity-20 lg:px-14 lg:pl-20 lg:pt-[15rem]">
+                <div class="block lg:hidden">
+                    <a href="/">
+                        <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
+                    </a>
+                    <nav aria-label="breadcrumb" class="mt-10">
+                        <ol class="inline-flex items-center gap-2 text-sm">
+                            <li class="font-semibold text-white"><a href="/">Home</a></li>
+                            <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.8125 3.125L9.1875 7.5L4.8125 11.875" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <li class="font-semibold text-yellow-500" aria-current="page">Payment</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="mt-20 flex flex-col lg:mt-0">
                     <span class="text-sm text-white lg:text-base">For unlimited projects</span>
                     <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
                     <p class="py-5 text-white md:text-base lg:text-lg">Easily integrate PayHere into your Laravel application like a pro.</p>
-                    <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.30,000</span>
-                    <div class="mt-10 flex gap-5">
-                        <ul class="flex flex-row flex-wrap gap-x-5 gap-y-2 lg:flex-col lg:flex-nowrap lg:gap-1">
+                    <span class="font-['Ubuntu'] text-4xl font-bold text-white lg:text-5xl">Rs.30,000</span>
+                    <div class="mt-10 flex flex-wrap gap-2 sm:gap-5">
+                        <ul class="flex flex-col gap-x-5 gap-y-2">
                             <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
                                 <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_152_202)">
@@ -103,7 +117,7 @@
                                 Filament panel
                             </li>
                         </ul>
-                        <ul class="flex flex-row flex-wrap gap-x-5 gap-y-1 lg:flex-col lg:flex-nowrap lg:gap-1">
+                        <ul class="flex flex-col gap-x-5 gap-y-2 lg:flex-nowrap">
                             <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
                                 <svg class="size-4" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_152_202)">
