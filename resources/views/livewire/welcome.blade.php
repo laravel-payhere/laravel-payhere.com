@@ -62,7 +62,11 @@
     </section>
     <section class="px-0 py-10 md:px-0 md:py-20">
         <h2 class="text-center text-2xl font-semibold text-white md:text-3xl xl:text-4xl">Pay once, use forever</h2>
-        <p class="mt-2 px-5 text-center text-sm text-white opacity-70 md:px-0 md:text-base xl:text-lg">Every purchase includes a perpetual fallback license that you can use forever.</p>
+        <p class="mt-2 px-5 text-center text-sm text-white opacity-70 md:px-0 md:text-base xl:text-lg">
+            Every purchase includes a
+            <a href="#" class="underline">perpetual fallback license</a>
+            that you can use forever.
+        </p>
         <div class="mx-auto grid max-w-5xl grid-cols-1 lg:grid-cols-3">
             <div class="col-span-2 mt-10 flex flex-col bg-gradient-to-l from-blue-700 px-5 pb-5 pt-10 md:px-20 lg:py-20">
                 <span class="text-sm text-white lg:text-base">For unlimited projects</span>
