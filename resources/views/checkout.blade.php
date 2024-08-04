@@ -18,8 +18,8 @@
         @vite(["resources/css/app.css", "resources/js/app.js"])
     </head>
     <body class="h-screen bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased">
-        <main class="grid h-full grid-cols-3 pl-14">
-            <div class="col-span-1 h-full py-10">
+        <main class="grid h-full grid-cols-3">
+            <div class="col-span-1 h-full place-content-center px-14 py-10">
                 <a href="{{ config("app.url") }}">
                     <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
                 </a>
@@ -32,6 +32,23 @@
                         <li class="font-semibold text-yellow-500" aria-current="page">Payment</li>
                     </ol>
                 </nav>
+                <div class="mt-20">
+                    <form action="#">
+                        <div class="text-lg font-semibold text-white">Please enter your details</div>
+                        <p class="mt-2 text-sm text-white">We collect this information to process your license and send it to you.</p>
+                        <div class="mt-10 flex flex-col gap-10">
+                            <div class="flex flex-col gap-2">
+                                <label for="name" class="text-base text-white">Your name</label>
+                                <input type="text" class="rounded border border-white border-opacity-15 bg-black bg-opacity-15 py-1.5" />
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label for="name" class="text-base text-white">Email address</label>
+                                <input type="text" class="rounded border border-white border-opacity-15 bg-black bg-opacity-15 py-1.5" />
+                            </div>
+                            <button type="submit" class="w-full rounded-lg bg-yellow-500 py-3 font-semibold">Continue</button>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div class="col-span-2 h-full place-content-center bg-black bg-opacity-20 pl-20">
                 <div class="flex flex-col">
@@ -39,9 +56,6 @@
                     <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
                     <p class="py-5 text-white md:text-base lg:text-lg">Easily integrate PayHere into your Laravel application like a pro.</p>
                     <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.30,000</span>
-                    <div class="mt-10">
-                        <a href="#" class="rounded-2xl bg-white bg-opacity-10 px-8 py-4 text-base font-semibold text-white">Buy Laravel PayHere</a>
-                    </div>
                 </div>
             </div>
         </main>
