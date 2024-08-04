@@ -68,8 +68,8 @@
                         <a href="#" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Terms and Conditions</a>
                         <a href="#" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Refund Policy</a>
                     </div>
-                    <div class="mt-5 text-start text-sm text-white md:text-center">
-                        <a href="https://payhere.lk/" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">PayHere</a>
+                    <div class="mt-5 text-start text-xs text-white md:text-center md:text-sm">
+                        <a href="https://payhere.lk/" class="font-medium text-white transition-colors hover:underline">PayHere</a>
                         is a trademark and usage of their trademark for this project has been approved by them.
                     </div>
                 </footer>
