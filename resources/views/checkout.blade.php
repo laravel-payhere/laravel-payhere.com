@@ -18,7 +18,7 @@
         @vite(["resources/css/app.css", "resources/js/app.js"])
     </head>
     <body class="h-screen bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased">
-        <main class="mx-auto grid h-full max-w-screen-2xl grid-cols-3">
+        <main class="mx-auto grid h-full max-w-screen-2xl grid-cols-1 lg:grid-cols-3">
             <div class="col-span-1 h-full place-content-start px-14 py-10">
                 <div>
                     <a href="/">
@@ -52,7 +52,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-span-2 h-full place-content-start bg-black bg-opacity-20 pl-20 pt-[15rem]">
+            <div class="col-span-2 h-full place-content-start bg-black bg-opacity-20 px-14 pb-10 pt-0 md:pl-20 md:pt-[15rem]">
                 <div class="flex flex-col">
                     <span class="text-sm text-white lg:text-base">For unlimited projects</span>
                     <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
