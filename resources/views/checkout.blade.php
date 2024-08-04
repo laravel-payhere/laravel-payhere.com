@@ -25,7 +25,7 @@
                 </a>
                 <nav aria-label="breadcrumb" class="mt-10">
                     <ol class="inline-flex items-center gap-2 text-sm">
-                        <li class="font-semibold text-white"><a href="{{ config("app.url") }}">Home</a></li>
+                        <li class="font-semibold text-white"><a href="/">Home</a></li>
                         <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4.8125 3.125L9.1875 7.5L4.8125 11.875" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
