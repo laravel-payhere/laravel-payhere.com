@@ -74,7 +74,7 @@
                 <p class="py-5 text-white md:text-base lg:text-lg">Easily integrate PayHere into your Laravel application like a pro.</p>
                 <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.30,000</span>
                 <div class="mt-10">
-                    <a href="{{ route("checkout") }}" class="rounded-2xl bg-white bg-opacity-10 px-8 py-4 text-base font-semibold text-white">Buy Laravel PayHere</a>
+                    <a href="{{ route("checkout") }}" class="rounded-2xl bg-white bg-opacity-10 px-8 py-4 text-base font-semibold text-white transition-colors hover:bg-opacity-20">Buy Laravel PayHere</a>
                 </div>
             </div>
             <div class="col-span-1 place-content-center bg-transparent bg-gradient-to-r from-black to-blue-700 px-5 pb-10 md:px-20 lg:mt-10 lg:from-[#FFFFFF0D] lg:to-[#FFFFFF00] lg:py-20">
