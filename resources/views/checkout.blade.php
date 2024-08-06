@@ -19,7 +19,7 @@
     </head>
     <body class="h-auto bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased lg:h-screen">
         <main class="mx-auto grid h-full max-w-screen-2xl grid-cols-1 lg:grid-cols-3">
-            <div class="order-2 col-span-1 h-full place-content-start px-10 py-10 lg:order-1 lg:px-14">
+            <div class="order-2 col-span-1 h-full place-content-start px-5 py-10 lg:order-1 lg:px-14">
                 <div class="hidden lg:block">
                     <a href="/">
                         <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
@@ -52,7 +52,7 @@
                     </form>
                 </div>
             </div>
-            <div class="order-1 col-span-2 h-full place-content-start bg-none px-10 pb-10 pt-10 lg:order-2 lg:bg-black lg:bg-opacity-20 lg:px-14 lg:pl-20 lg:pt-[15rem]">
+            <div class="order-1 col-span-2 h-full place-content-start bg-none px-5 pb-10 pt-10 lg:order-2 lg:bg-black lg:bg-opacity-20 lg:px-14 lg:pl-20 lg:pt-[15rem]">
                 <div class="block lg:hidden">
                     <a href="/">
                         <img src="{{ Vite::asset("resources/images/logo@1.svg") }}" class="h-[50px]" alt="Laravel PayHere Logo" />
