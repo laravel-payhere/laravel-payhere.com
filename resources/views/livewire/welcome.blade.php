@@ -24,7 +24,7 @@
             </div>
         </div>
     </section>
-    <section class="flex flex-col gap-10 px-0 py-10 md:px-10 md:py-20">
+    <section id="features" class="flex flex-col gap-10 px-0 py-10 md:px-10 md:py-20">
         <div class="bg-feature relative flex gap-5 overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
             <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Simplified HTML Form Based APIs</h3>
