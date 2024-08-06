@@ -48,6 +48,7 @@
                                 <input id="email" name="email" type="email" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
                             </div>
                             <button type="submit" class="mt-5 w-full rounded-lg bg-yellow-500 py-2 font-semibold">Continue</button>
+                            <p class="text-start text-xs text-gray-300">Your data will be securely shared with PayHere.lk and this website to process your order.</p>
                         </div>
                     </form>
                 </div>
