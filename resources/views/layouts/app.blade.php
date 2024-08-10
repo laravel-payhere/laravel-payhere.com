@@ -64,8 +64,8 @@
                         <img src="{{ Vite::asset("resources/images/logo@2.svg") }}" class="h-6 md:h-8" alt="Laravel PayHere Logo" />
                     </a>
                     <div class="inline-flex flex-col gap-2 md:flex-row md:gap-10">
-                        <a wire:navigate wire:navigate.hover href="{{ route("privacy-policy") }}" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Privacy Policy</a>
-                        <a wire:navigate wire:navigate.hover href="{{ route("terms") }}" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Terms and Conditions</a>
+                        <a href="{{ route("privacy-policy") }}" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Privacy Policy</a>
+                        <a href="{{ route("terms") }}" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Terms and Conditions</a>
                         <a href="#" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Refund Policy</a>
                     </div>
                     <div class="mt-5 text-start text-xs text-white md:text-center md:text-sm">
