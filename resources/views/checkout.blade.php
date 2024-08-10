@@ -50,7 +50,7 @@
                             <button type="submit" class="mt-5 w-full rounded-lg bg-yellow-500 py-2 font-semibold">Continue</button>
                             <p class="text-start text-xs text-gray-300">
                                 We will securely share your data with payhere.lk, dasun.dev, and this website to process your order. See our
-                                <a href="{{ route("privacy-policy") }}" class="underline">Privacy Policy</a>
+                                <a href="{{ route("privacy-policy") }}" class="underline">privacy policy</a>
                                 for details.
                             </p>
                         </div>
