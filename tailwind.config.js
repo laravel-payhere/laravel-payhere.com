@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: ["./resources/**/*.blade.php"],
+    content: [
+        "./resources/**/*.blade.php",
+        './storage/framework/views/*.php',
+    ],
     theme: {
         fontFamily: {
             sans: ["Figtree", "sans-serif"],
