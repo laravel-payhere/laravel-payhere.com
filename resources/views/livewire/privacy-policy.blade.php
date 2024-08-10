@@ -1,4 +1,4 @@
-<div class="mx-auto max-w-4xl">
-    <h1 class="mb-12 text-center text-3xl font-semibold text-white">Privacy Policy</h1>
-    <p class="text-lg text-white">I, Dasun Tharanga, operate this website selling Laravel plugins. I am committed to protecting your privacy. This Privacy Policy explains how I collect, use, disclose, and safeguard your information when you visit my website and provide me with your personal data</p>
+<div class="mx-auto mt-14 max-w-5xl">
+    <h1 class="mb-6 text-start text-4xl text-white">Privacy Policy</h1>
+    <p class="text-base text-white">At Laravel PayHere, we are committed to safeguarding the privacy and security of our customers' personal information. This Privacy Policy outlines how we collect, use, and protect your data when you visit our website or purchase our plugin. By accessing our website or purchasing our plugin, you agree to the practices described in this policy.</p>
 </div>
