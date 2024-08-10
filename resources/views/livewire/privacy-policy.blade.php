@@ -28,35 +28,15 @@
         </ul>
         <h2 class="my-6 text-xl">Data Security</h2>
         <p>We implement industry-standard security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, please be aware that no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
-        <ul class="my-2 list-disc pl-10">
-            <li>
-                We share your name and email address with
-                <a href="https://www.dasun.dev" target="_blank" rel="noopener noreferrer" class="underline">https://www.dasun.dev</a>
-                to issue the license for using the plugin.
-            </li>
-            <li>Legal requirements: We may disclose your information if required to do so by law or in response to valid legal requests or orders.</li>
-        </ul>
         <h2 class="my-6 text-xl">Cookies and Tracking Technologies</h2>
         <p>We use cookies and similar technologies to enhance your browsing experience, analyze website traffic, and gather information about your preferences and interactions with our website. You have the option to disable cookies through your browser settings, but this may limit certain features and functionality of our website.</p>
-        <ul class="my-2 list-disc pl-10">
-            <li>
-                We share your name and email address with
-                <a href="https://www.dasun.dev" target="_blank" rel="noopener noreferrer" class="underline">https://www.dasun.dev</a>
-                to issue the license for using the plugin.
-            </li>
-            <li>Legal requirements: We may disclose your information if required to do so by law or in response to valid legal requests or orders.</li>
-        </ul>
         <h2 class="my-6 text-xl">Changes to the Privacy Policy</h2>
         <p>We reserve the right to update or modify this Privacy Policy at any time. Any changes will be posted on this page with a revised "last updated" date. We encourage you to review this Privacy Policy periodically to stay informed about how we collect, use, and protect your information.</p>
-        <ul class="my-2 list-disc pl-10">
-            <li>
-                We share your name and email address with
-                <a href="https://www.dasun.dev" target="_blank" rel="noopener noreferrer" class="underline">https://www.dasun.dev</a>
-                to issue the license for using the plugin.
-            </li>
-            <li>Legal requirements: We may disclose your information if required to do so by law or in response to valid legal requests or orders.</li>
-        </ul>
         <h2 class="my-6 text-xl">Contact Us</h2>
-        <p>If you have any questions, concerns, or requests regarding our Privacy Policy or the handling of your personal information, please contact us using the information provided on our website.</p>
+        <p>
+            If you have any questions, concerns, or requests regarding our Privacy Policy or the handling of your personal information, please reach out to Dasun Tharanga at
+            <a href="https://www.dasun.dev" target="_blank" rel="noopener noreferrer" class="underline">hello@dasun.dev</a>
+            .
+        </p>
     </div>
 </div>
