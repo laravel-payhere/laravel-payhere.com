@@ -66,7 +66,7 @@
                     <div class="inline-flex flex-col gap-2 md:flex-row md:gap-10">
                         <a href="{{ route("privacy-policy") }}" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Privacy Policy</a>
                         <a href="{{ route("terms") }}" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Terms and Conditions</a>
-                        <a href="#" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Refund Policy</a>
+                        <a href="{{ route("refund-policy") }}" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Refund Policy</a>
                     </div>
                     <div class="mt-5 text-start text-xs text-white md:text-center md:text-sm">
                         <a href="https://payhere.lk/" class="font-medium text-white transition-colors hover:underline">PayHere</a>
