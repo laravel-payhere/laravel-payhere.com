@@ -3,16 +3,13 @@
     <div class="text-sm text-white md:text-base">
         <p>A changelog of the latest Laravel PayHere feature releases, product updates and important bug fixes.</p>
 
-        <h2 class="my-6 text-lg sm:text-xl md:text-2xl">v1.0.0-beta.19</h2>
-        <ul class="my-2 list-disc pl-10">
-            <li>Improve the checkout page.</li>
-            <li>Fix the recurring subscription process.</li>
-        </ul>
-
-        <h2 class="my-6 text-lg sm:text-xl md:text-2xl">v1.0.0-beta.18</h2>
-        <ul class="my-2 list-disc pl-10">
-            <li>Improve the checkout page.</li>
-            <li>Fix the recurring subscription process.</li>
-        </ul>
+        @foreach ($releases as $version => $release)
+            <h2 class="my-6 text-lg sm:text-xl md:text-2xl">{{ __("v:version", ["version" => $version]) }}</h2>
+            <ul class="my-2 list-disc pl-10">
+                @foreach ($release["changes"] as $change)
+                    <li>{{ $change }}</li>
+                @endforeach
+            </ul>
+        @endforeach
     </div>
 </div>
