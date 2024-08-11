@@ -1,10 +1,12 @@
 # Changelog
 
-## v1.1 - 2024-07-20
+## Version 1.1
+> 11 August, 2024
 
 - Internal improvements and bug fixes.
 
-## v1.0 - 2024-06-10
+## Version 1.0
+> 8 August, 2024
 
 - Internal improvements and bug fixes.
 

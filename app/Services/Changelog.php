@@ -14,7 +14,7 @@ final readonly class Changelog
     public function getReleases(): array
     {
         $blocks = preg_split(
-            '/## v/',
+            '/## Version/',
             File::get(base_path('CHANGELOG.md')),
             -1,
             PREG_SPLIT_NO_EMPTY
@@ -28,13 +28,14 @@ final readonly class Changelog
                 $lines = explode("\n", trim($block));
                 $version = trim(array_shift($lines));
 
+                $publishedAt = trim(str_replace('>', '', (string) array_shift($lines)));
                 array_shift($lines);
                 $changes = collect($lines)
                     ->filter(fn (string $line): bool => ! str_starts_with($line, '##'))
                     ->map(fn (string $line): string => trim(str_replace('- ', '', $line)))
                     ->all();
 
-                return [$version => ['changes' => $changes]];
+                return [$version => ['publishedAt' => $publishedAt, 'changes' => $changes]];
             })->all();
     }
 }

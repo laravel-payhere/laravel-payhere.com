@@ -4,12 +4,15 @@
         <p>A changelog of the latest Laravel PayHere plugin feature releases, and important bug fixes.</p>
 
         @foreach ($releases as $version => $release)
-            <h2 class="my-6 text-lg sm:text-xl md:text-2xl">{{ __("v:version", ["version" => $version]) }}</h2>
-            <ul class="my-2 list-disc pl-10">
-                @foreach ($release["changes"] as $change)
-                    <li>{{ $change }}</li>
-                @endforeach
-            </ul>
+            <div class="my-6">
+                <span class="rounded-full bg-white bg-opacity-10 px-2 py-1 text-xs">{{ $release["publishedAt"] }}</span>
+                <h2 class="text-lg sm:text-xl md:text-2xl">{{ __("Version :v", ["v" => $version]) }}</h2>
+                <ul class="my-2 list-disc pl-10">
+                    @foreach ($release["changes"] as $change)
+                        <li>{{ $change }}</li>
+                    @endforeach
+                </ul>
+            </div>
         @endforeach
     </div>
 </div>
