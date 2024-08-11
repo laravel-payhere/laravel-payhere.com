@@ -1,6 +1,8 @@
 <div class="mx-auto mt-10 max-w-5xl px-5">
     <h1 class="my-6 text-start text-2xl text-white sm:text-3xl md:text-4xl">Refund Policy</h1>
     <div class="text-sm text-white md:text-base">
+        <p class="my-6">Last updated: August 11, 2024</p>
+
         <p>Thank you for purchasing the Laravel PayHere plugin. We value your support and are committed to providing high-quality digital products. Please note that all sales are final. We do not offer refunds or exchanges for any digital products purchased through our website.</p>
 
         <h2 class="my-6 text-base sm:text-lg md:text-xl">No Refunds</h2>

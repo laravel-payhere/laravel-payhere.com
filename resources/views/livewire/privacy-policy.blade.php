@@ -1,6 +1,8 @@
 <div class="mx-auto mt-10 max-w-5xl px-5">
     <h1 class="my-6 text-start text-2xl text-white sm:text-3xl md:text-4xl">Privacy Policy</h1>
     <div class="text-sm text-white md:text-base">
+        <p class="my-6">Last updated: August 11, 2024</p>
+
         <p>At Laravel PayHere, we are dedicated to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website or purchase our plugin. By using our website or purchasing our plugin, you consent to the practices described in this policy.</p>
 
         <h2 class="my-6 text-base sm:text-lg md:text-xl">Information We Collect</h2>
