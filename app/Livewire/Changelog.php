@@ -2,13 +2,19 @@
 
 namespace App\Livewire;
 
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\Cache;
 use Livewire\Component;
 use App\Services\Changelog as ChangelogService;
 
 class Changelog extends Component
 {
-    public function mount(ChangelogService $changelog)
+    public function render(ChangelogService $changelog): View
     {
-        dd($changelog->getReleases());
+        return view('livewire.changelog', [
+            'releases' => Cache::remember(
+                'changelog.releases', 120, fn (): array => $changelog->getReleases(),
+            ),
+        ]);
     }
 }
