@@ -1,41 +1,45 @@
 <div class="mx-auto mt-10 max-w-5xl px-5">
     <h1 class="my-6 text-start text-2xl text-white sm:text-3xl md:text-4xl">Terms and Conditions</h1>
     <div class="text-sm text-white md:text-base">
-        <p>These Terms and Conditions govern your use of our website and the purchase of the Laravel PayHere plugin from our platform. By accessing and using our website, you agree to abide by these terms. Please read them carefully before making any transactions.</p>
+        <p>These Terms and Conditions govern your use of our website and the purchase of the Laravel PayHere plugin. By accessing and using our website, you agree to comply with these terms. Please read them carefully before making any transactions.</p>
+
         <h2 class="my-6 text-base sm:text-lg md:text-xl">Use of the Website</h2>
-        <ol class="my-2 list-decimal pl-10">
-            <li>You are responsible for maintaining the confidentiality of your account information, including your username and password.</li>
-            <li>You agree to provide accurate and current information during the registration and checkout process.</li>
+        <ul class="my-2 list-disc pl-10">
+            <li>You agree to provide accurate and up-to-date information during checkout.</li>
             <li>You may not use our website for any unlawful or unauthorized purposes.</li>
-        </ol>
-        <h2 class="my-6 text-base sm:text-lg md:text-xl">Use Of Information</h2>
-        <p>We may use the collected information for the following purposes:</p>
-        <ul class="my-2 list-disc pl-10">
-            <li>To process your orders, including issuing licenses.</li>
-            <li>To communicate with you regarding your purchases, provide customer support, and respond to inquiries or requests.</li>
-            <li>To improve our website and plugin based on your feedback.</li>
+            <li>You may not resell the Laravel PayHere plugin.</li>
         </ul>
-        <h2 class="my-6 text-base sm:text-lg md:text-xl">Information Sharing</h2>
-        <p>We respect your privacy and do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except in the following circumstances:</p>
+
+        <h2 class="my-6 text-base sm:text-lg md:text-xl">Product Information and Pricing</h2>
         <ul class="my-2 list-disc pl-10">
-            <li>
-                We share your name and email address with
-                <a href="https://www.dasun.dev" target="_blank" rel="noopener noreferrer" class="underline">https://www.dasun.dev</a>
-                to issue the license for using the plugin.
-            </li>
-            <li>Legal requirements: We may disclose your information if required to do so by law or in response to valid legal requests or orders.</li>
+            <li>We strive to provide accurate product descriptions, images, and pricing information. However, we cannot guarantee the accuracy or completeness of this information.</li>
+            <li>Prices are subject to change without notice. Promotions and discounts are valid for a limited time and may be subject to additional terms and conditions.</li>
         </ul>
-        <h2 class="my-6 text-base sm:text-lg md:text-xl">Data Security</h2>
-        <p>We implement industry-standard security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, please be aware that no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
-        <h2 class="my-6 text-base sm:text-lg md:text-xl">Cookies and Tracking Technologies</h2>
-        <p>We use cookies and similar technologies to enhance your browsing experience, analyze website traffic, and gather information about your preferences and interactions with our website. You have the option to disable cookies through your browser settings, but this may limit certain features and functionality of our website.</p>
-        <h2 class="my-6 text-base sm:text-lg md:text-xl">Changes to the Privacy Policy</h2>
-        <p>We reserve the right to update or modify this Privacy Policy at any time. Any changes will be posted on this page with a revised "last updated" date. We encourage you to review this Privacy Policy periodically to stay informed about how we collect, use, and protect your information.</p>
-        <h2 class="my-6 text-base sm:text-lg md:text-xl">Contact Us</h2>
-        <p>
-            If you have any questions, concerns, or requests regarding our Privacy Policy or the handling of your personal information, please reach out to Dasun Tharanga at
-            <a href="https://www.dasun.dev" target="_blank" rel="noopener noreferrer" class="underline">hello@dasun.dev</a>
-            .
-        </p>
+
+        <h2 class="my-6 text-base sm:text-lg md:text-xl">Orders and Payments</h2>
+        <ul class="my-2 list-disc pl-10">
+            <li>By placing an order on our website, you are making an offer to purchase the selected product.</li>
+            <li>We reserve the right to refuse or cancel any order for reasons including, but not limited to, product availability, pricing errors, or suspected fraudulent activity.</li>
+            <li>You agree to provide valid and current payment information and authorize us to charge the total order amount, including applicable taxes, to your chosen payment method.</li>
+            <li>We use trusted third-party payment processors to securely handle your payment information. We do not store or have access to your full payment details.</li>
+        </ul>
+
+        <h2 class="my-6 text-base sm:text-lg md:text-xl">Refunds</h2>
+        <p>Our Refund Policy governs the process and conditions for seeking refunds. Please refer to the policy provided on our website for more information.</p>
+
+        <h2 class="my-6 text-base sm:text-lg md:text-xl">Intellectual Property</h2>
+        <ul class="my-2 list-disc pl-10">
+            <li>All content and materials on our website, including but not limited to text, images, logos, and graphics, are protected by intellectual property rights and are the property of Laravel PayHere or its licensors.</li>
+            <li>You may not use, reproduce, distribute, or modify any content from our website without our prior written consent.</li>
+        </ul>
+
+        <h2 class="my-6 text-base sm:text-lg md:text-xl">Limitation of Liability</h2>
+        <ul class="my-2 list-disc pl-10">
+            <li>In no event shall Laravel PayHere be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of our website or the purchase and use of our products.</li>
+            <li>We make no warranties or representations, express or implied, regarding the quality, accuracy, or suitability of the Laravel PayHere on our website.</li>
+        </ul>
+
+        <h2 class="my-6 text-base sm:text-lg md:text-xl">Amendments and Termination</h2>
+        <p>We reserve the right to modify, update, or terminate these Terms and Conditions at any time without prior notice. It is your responsibility to review these terms periodically for any changes.</p>
     </div>
 </div>
