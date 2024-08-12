@@ -27,7 +27,6 @@ echo "Creating the composer auth.json"
 composer config http-basic.satis.dasun.dev hello@dasun.dev $LARAVEL_PAYHERE_LICENSE_KEY
 
 # INSTALL COMPOSER DEPENDENCIES
-composer require dasundev/laravel-payhere:^1.0.0@beta
 composer install
 
 # INSTALL NPM DEPENDENCIES
