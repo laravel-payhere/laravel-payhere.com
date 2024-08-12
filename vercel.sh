@@ -19,14 +19,14 @@ then
     exit 1
 fi
 
-php composer-setup.php --quiet
+php composer-setup.php --install-dir=/usr/local/bin --filename=composer --quite
 rm composer-setup.php
 
 # CREATE COMPOSER AUTH.JSON
 composer config http-basic.satis.dasun.dev hello@dasun.dev $LARAVEL_PAYHERE_LICENSE_KEY
 
 # INSTALL COMPOSER DEPENDENCIES
-php composer.phar install
+composer install
 
 # INSTALL NPM DEPENDENCIES
 npm run build
