@@ -18,7 +18,6 @@
             "dest": "/api/index.php"
         }
     ],
-    "outputDirectory": "public",
     "env": {
         "APP_DEBUG": "true",
         "APP_CONFIG_CACHE": "/tmp/config.php",
@@ -30,5 +29,6 @@
         "CACHE_STORE": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    }
+    },
+    "outputDirectory": "public"
 }
