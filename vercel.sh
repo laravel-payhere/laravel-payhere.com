@@ -22,9 +22,7 @@ fi
 php composer-setup.php --quiet
 rm composer-setup.php
 
-echo $PAYHERE_LICENSE_KEY
-
-php composer.phar config http-basic.satis.dasun.dev hello@dasun.dev PAYHERE_LICENSE_KEY
+php composer.phar config http-basic.satis.dasun.dev hello@dasun.dev $PAYHERE_LICENSE_KEY
 
 # INSTALL COMPOSER DEPENDENCIES
 php composer.phar install
