@@ -31,5 +31,6 @@
         "SESSION_DRIVER": "cookie"
     },
     "outputDirectory": "public",
-    "buildCommand": "sh vercel.sh"
+    "buildCommand": "sh vercel.sh",
+    "installCommand": "false"
 }
