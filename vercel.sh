@@ -29,4 +29,4 @@ php composer.phar config http-basic.satis.dasun.dev hello@dasun.dev $PAYHERE_LIC
 php composer.phar install
 
 # INSTALL NPM DEPENDENCIES
-npm install
+npm run build
