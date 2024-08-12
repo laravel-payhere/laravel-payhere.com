@@ -23,7 +23,7 @@ php composer-setup.php --install-dir=/usr/local/bin --filename=composer --quite
 rm composer-setup.php
 
 # CREATE COMPOSER AUTH.JSON
-echo "Creating the composer auth.json"
+echo "Create composer auth.json"
 composer config http-basic.satis.dasun.dev hello@dasun.dev $LARAVEL_PAYHERE_LICENSE_KEY
 
 # INSTALL COMPOSER DEPENDENCIES
