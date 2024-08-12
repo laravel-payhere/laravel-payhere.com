@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "dasundev/laravel-payhere": "^1.0.0@beta",
+        "dasundev/laravel-payhere": "^1.0.0-beta.19",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5"
