@@ -33,6 +33,5 @@
 
         "DB_DATABASE": "pgsql"
     },
-    "outputDirectory": "public",
-    "buildCommand": "sh vercel.sh"
+    "outputDirectory": "public"
 }
