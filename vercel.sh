@@ -1,3 +1,3 @@
 npm run build
 
-which vercel
+ls -la /usr/bin/
