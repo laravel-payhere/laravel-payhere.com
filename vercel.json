@@ -30,6 +30,5 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
-    "outputDirectory": "public",
-    "buildCommand": "sh vercel.sh"
+    "outputDirectory": "public"
 }
