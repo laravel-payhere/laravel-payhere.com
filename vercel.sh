@@ -8,3 +8,5 @@ yum install php php-{common,curl,mbstring,gd,gettext,bcmath,json,xml,fpm,intl,zi
 yum install wget
 
 php artisan filament:assets
+
+npm run build
