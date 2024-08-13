@@ -14,6 +14,10 @@
             "dest": "/build/$1"
         },
         {
+            "src": "/(css|js)/(.*)",
+            "dest": "/$1/$2"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
@@ -30,6 +34,5 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
-    "outputDirectory": "public",
-    "buildCommand": "sh vercel.sh"
+    "outputDirectory": "public"
 }
