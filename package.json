@@ -6,8 +6,7 @@
         "build": "vite build",
         "format": "npx prettier ./resources/views/* --write",
         "lint-staged": "lint-staged",
-        "prepare": "husky",
-        "postinstall": "php artisan migrate --force"
+        "prepare": "husky"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.19",
