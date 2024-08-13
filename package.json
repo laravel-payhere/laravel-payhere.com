@@ -7,7 +7,7 @@
         "format": "npx prettier ./resources/views/* --write",
         "lint-staged": "lint-staged",
         "prepare": "husky",
-        "postinstall": "@php artisan migrate --force"
+        "postinstall": "php artisan migrate --force"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.19",
