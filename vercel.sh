@@ -1,3 +1,3 @@
 #!/bin/sh
 
-which php
+vercel build
