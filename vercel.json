@@ -11,7 +11,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/api/index.php?$query_string"
+            "dest": "/api/index.php?$1"
         }
     ],
     "env": {
