@@ -6,3 +6,6 @@ yum install php
 
 # MIGRATE THE DATABASE
 php artisan migrate
+
+# BUILD ASSETS
+npm run build
