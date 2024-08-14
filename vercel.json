@@ -36,7 +36,7 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
 
-        "DB_DATABASE": "pgsql"
+        "DB_DATABASE": "sqlite"
     },
     "buildCommand": "sh vercel.sh"
 }
