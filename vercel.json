@@ -18,6 +18,7 @@
             "dest": "/api/index.php"
         }
     ],
+    "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
@@ -37,5 +38,5 @@
 
         "DB_DATABASE": "pgsql"
     },
-    "outputDirectory": "public"
+    "buildCommand": "sh vercel.sh"
 }
