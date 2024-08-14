@@ -10,8 +10,20 @@
     },
     "routes": [
         {
+            "src": "/build/(.*)",
+            "dest": "/build/$1"
+        },
+        {
+            "src": "/css/(.*)",
+            "dest": "/css/$1"
+        },
+        {
+            "src": "/js/(.*)",
+            "dest": "/js/$1"
+        },
+        {
             "src": "/(.*)",
-            "dest": "/api/index.php?$1"
+            "dest": "/api/index.php"
         }
     ],
     "env": {
