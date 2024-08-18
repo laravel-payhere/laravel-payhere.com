@@ -36,7 +36,9 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
 
-        "DB_CONNECTION": "pgsql"
+        "DB_CONNECTION": "pgsql",
+
+        "VERCEL_FORCE_NO_BUILD_CACHE": "1"
     },
     "buildCommand": "sh vercel.sh"
 }
