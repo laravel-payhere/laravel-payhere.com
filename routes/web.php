@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use App\Livewire\Changelog;
 use App\Livewire\PrivacyPolicy;
 use App\Livewire\RefundPolicy;

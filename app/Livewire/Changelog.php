@@ -1,13 +1,15 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Livewire;
 
+use App\Services\Changelog as ChangelogService;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Cache;
 use Livewire\Component;
-use App\Services\Changelog as ChangelogService;
 
-class Changelog extends Component
+final class Changelog extends Component
 {
     public function render(ChangelogService $changelog): View
     {
