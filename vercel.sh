@@ -11,8 +11,8 @@ yum install wget
 
 # INSTALL LIBSQL
 curl https://darkterminal.github.io/turso-php-installer/dist/turso-php-installer.phar -o ./turso-php-installer.phar
-sudo chmod +x turso-php-installer.phar
-sudo mv turso-php-installer.phar /usr/local/bin/turso-php-installer
+chmod +x turso-php-installer.phar
+mv turso-php-installer.phar /usr/local/bin/turso-php-installer
 turso-php-installer install
 
 # INSTALL COMPOSER
