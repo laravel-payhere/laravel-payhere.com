@@ -29,6 +29,9 @@ rm composer-setup.php
 # INSTALL COMPOSER DEPENDENCIES
 php composer.phar install
 
+# CREATE COMPOSER AUTH.JSON
+composer config http-basic.satis.dasun.dev hello@dasun.dev $LARAVEL_PAYHERE_LICENSE_KEY
+
 # MIGRATE THE DATABASE
 echo "Running database migrations..."
 php artisan migrate --force
