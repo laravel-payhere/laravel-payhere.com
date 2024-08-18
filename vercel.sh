@@ -8,11 +8,11 @@ amazon-linux-extras enable php8.2
 yum clean metadata
 yum install php php-{ctype,curl,dom,fileinfo,filter,hash,mbstring,openssl,pcre,pdo,session,tokenizer,xml,libpq}
 
-## INSTALL POSTGRESQL
-#echo "Enabling PostgreSQL 14 and installing PostgreSQL..."
-#amazon-linux-extras enable postgresql14
-#yum clean metadata
-#yum install postgresql-server
+# INSTALL POSTGRESQL
+echo "Enabling PostgreSQL 14 and installing PostgreSQL..."
+amazon-linux-extras enable postgresql14
+yum clean metadata
+yum install postgresql-server
 
 # MIGRATE THE DATABASE
 echo "Running database migrations..."
