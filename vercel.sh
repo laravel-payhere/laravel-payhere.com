@@ -12,8 +12,8 @@ yum install php php-{ctype,curl,dom,fileinfo,filter,hash,mbstring,openssl,pcre,p
 yum install wget
 
 # INSTALL POSTGRESQL
-echo "Enabling PostgreSQL 14 and installing PostgreSQL..."
-amazon-linux-extras enable postgresql14
+echo "Enabling PostgreSQL 15 and installing PostgreSQL..."
+amazon-linux-extras enable postgresql15
 yum clean metadata
 yum install postgresql-server
 
