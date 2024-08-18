@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d204b6cf051e39190bae666b6668bc2f",
+    "content-hash": "3e6e1a2c93d706d0a820daaa8627e005",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -7555,83 +7555,6 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.2.7"
             },
             "time": "2023-12-08T13:03:43+00:00"
-        },
-        {
-            "name": "tursodatabase/turso-driver-laravel",
-            "version": "1.0.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tursodatabase/turso-driver-laravel.git",
-                "reference": "c0d7bb788e4e1dbcd11e9298efc1be7dbe159fac"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tursodatabase/turso-driver-laravel/zipball/c0d7bb788e4e1dbcd11e9298efc1be7dbe159fac",
-                "reference": "c0d7bb788e4e1dbcd11e9298efc1be7dbe159fac",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "^10.0||^11.0",
-                "php": "^8.2",
-                "spatie/laravel-package-tools": "^1.16"
-            },
-            "require-dev": {
-                "larastan/larastan": "^2.9",
-                "laravel/pint": "^1.14",
-                "nunomaduro/collision": "^8.1.1||^7.10.0",
-                "orchestra/testbench": "^9.1",
-                "phpstan/extension-installer": "^1.3",
-                "phpstan/phpstan-deprecation-rules": "^1.1",
-                "phpstan/phpstan-phpunit": "^1.3",
-                "spatie/laravel-ray": "^1.35"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Turso\\Driver\\Laravel\\LibSQLDriverServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Turso\\Driver\\Laravel\\": "src/",
-                    "Turso\\Driver\\Laravel\\Tests\\": "tests/",
-                    "Turso\\Driver\\Laravel\\Database\\Factories\\": "database/factories/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Imam Ali Mustofa",
-                    "email": "darkterminal@duck.com",
-                    "role": "Software Freestyle Engineer"
-                }
-            ],
-            "description": "A Turso Driver for Laravel",
-            "homepage": "https://github.com/tursodatabase/turso-driver-laravel",
-            "keywords": [
-                "laravel",
-                "libsql",
-                "libsql-driver-laravel",
-                "turso",
-                "turso-driver-laravel",
-                "tursodatabase"
-            ],
-            "support": {
-                "issues": "https://github.com/tursodatabase/turso-driver-laravel/issues",
-                "source": "https://github.com/tursodatabase/turso-driver-laravel/tree/1.0.11"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/darkterminal",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-07-25T12:27:34+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
