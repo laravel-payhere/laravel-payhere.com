@@ -8,6 +8,9 @@ amazon-linux-extras enable php8.2
 yum clean metadata
 yum install php php-{ctype,curl,dom,fileinfo,filter,hash,mbstring,openssl,pcre,pdo,session,tokenizer,xml,intl}
 
+# INSTALL WGET
+yum install wget
+
 # INSTALL COMPOSER
 EXPECTED_CHECKSUM="$(wget -q -O - https://composer.github.io/installer.sig)"
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
