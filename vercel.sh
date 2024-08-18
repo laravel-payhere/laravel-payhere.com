@@ -14,13 +14,13 @@ amazon-linux-extras enable postgresql14
 yum clean metadata
 yum install postgresql-server
 
-# OPTIMIZE
-echo "Clear application cache..."
-php artisan optimize:clear
-
 # MIGRATE THE DATABASE
 echo "Running database migrations..."
 php artisan migrate --force
+
+# CLEAR CACHE
+echo "Clear application cache..."
+php artisan optimize:clear
 
 # BUILD ASSETS
 echo "Building assets..."
