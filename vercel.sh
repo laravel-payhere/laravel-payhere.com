@@ -4,7 +4,7 @@ yum install -y amazon-linux-extras
 # INSTALL PHP
 amazon-linux-extras enable php8.2
 yum clean metadata
-yum install php php-{ctype,curl,dom,fileinfo,filter,hash,mbstring,openssl,pcre,pdo,session,tokenizer,xml,sqlite3}
+yum install php php-{ctype,curl,dom,fileinfo,filter,hash,mbstring,openssl,pcre,pdo,session,tokenizer,xml}
 
 # INSTALL POSTGRESQL
 amazon-linux-extras enable postgresql14
