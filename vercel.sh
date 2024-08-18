@@ -12,7 +12,7 @@ yum install php php-{ctype,curl,dom,fileinfo,filter,hash,mbstring,openssl,pcre,p
 echo "Enabling PostgreSQL 14 and installing PostgreSQL..."
 amazon-linux-extras enable postgresql14
 yum clean metadata
-yum install postgresql
+yum install postgresql-server
 
 # MIGRATE THE DATABASE
 echo "Running database migrations..."
