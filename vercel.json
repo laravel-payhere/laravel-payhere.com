@@ -20,9 +20,7 @@
     ],
     "outputDirectory": "public",
     "env": {
-        "APP_ENV": "production",
-        "APP_DEBUG": "true",
-        "APP_URL": "https://laravel-payhere.com",
+        "APP_URL": "https://stage.laravel-payhere.com",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -37,6 +35,13 @@
         "SESSION_DRIVER": "cookie",
 
         "DB_CONNECTION": "pgsql"
+    },
+    "build": {
+        "env": {
+            "APP_ENV": "production",
+            "APP_URL": "https://laravel-payhere.com",
+            "APP_DEBUG": "false"
+        }
     },
     "buildCommand": "sh vercel.sh"
 }
