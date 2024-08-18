@@ -29,9 +29,11 @@ then
     exit 1
 fi
 
-php composer-setup.php --quiet --install-dir=/usr/local/bin
+php composer-setup.php --quiet
+rm composer-setup.php
 
-composer install
+# INSTALL COMPOSER DEPENDENCIES
+php composer.phar install
 
 # MIGRATE THE DATABASE
 echo "Running database migrations..."
