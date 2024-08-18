@@ -15,8 +15,8 @@ yum clean metadata
 yum install postgresql-server
 
 # OPTIMIZE
-echo "Clear cache and optimize..."
-php artisan optimize:clear && php artisan optimize
+echo "Clear application cache..."
+php artisan optimize:clear
 
 # MIGRATE THE DATABASE
 echo "Running database migrations..."
