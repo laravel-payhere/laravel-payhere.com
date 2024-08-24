@@ -6,7 +6,8 @@
         "build": "vite build",
         "format": "npx prettier ./resources/views/* --write",
         "lint-staged": "lint-staged",
-        "prepare": "husky"
+        "prepare": "husky",
+        "docs:build": "cd ./docs && npm install && npm run build"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.19",

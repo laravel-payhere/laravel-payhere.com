@@ -49,3 +49,6 @@ php artisan optimize:clear
 # BUILD ASSETS
 echo "Building assets..."
 npm run build
+
+# BUILD DOCS
+npm run docs:build
