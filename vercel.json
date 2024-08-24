@@ -10,7 +10,7 @@
     },
     "routes": [
         {
-            "src": "/(build|css|js|vendor)/(.*)",
+            "src": "/(build|css|js|vendor|docs)/(.*)",
             "dest": "/$1/$2"
         },
         {
