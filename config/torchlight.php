@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     // The Torchlight client caches highlighted code blocks. Here
     // you can define which cache driver you'd like to use. If
@@ -40,14 +42,14 @@ return [
     // block, Torchlight will look for code snippets in the
     // following directories.
     'snippet_directories' => [
-        resource_path()
+        resource_path(),
     ],
 
     // Global options to control blocks-level settings.
     // https://torchlight.dev/docs/options
     'options' => [
         // Turn line numbers on or off globally.
-         'lineNumbers' => false,
+        'lineNumbers' => false,
 
         // Control the `style` attribute applied to line numbers.
         // 'lineNumbersStyle' => '',
@@ -62,5 +64,5 @@ return [
         // When lines are collapsed, this is the text that will
         // be shown to indicate that they can be expanded.
         // 'summaryCollapsedIndicator' => '...',
-    ]
+    ],
 ];
