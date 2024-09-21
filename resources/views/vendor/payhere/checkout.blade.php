@@ -36,29 +36,6 @@
         </div>
         <div class="mt-0 lg:mt-20">
             <form id="checkoutForm" action="{{ $data['action'] }}" method="post">
-                <div class="text-base font-semibold text-white md:text-lg">Please enter your details</div>
-                <p class="mt-2 text-xs text-white md:text-sm">We collect this information to process your license and send it to you.</p>
-                <div class="mt-10 flex flex-col gap-5">
-                    <div class="flex flex-col gap-2">
-                        <label for="firstName" class="text-base text-white">First name</label>
-                        <input id="firstName" name="first_name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
-                    </div>
-                    <div class="flex flex-col gap-2">
-                        <label for="lastName" class="text-base text-white">Last name</label>
-                        <input id="lastName" name="last_name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
-                    </div>
-                    <div class="flex flex-col gap-2">
-                        <label for="email" class="text-base text-white">Email address</label>
-                        <input id="email" name="email" type="email" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
-                    </div>
-                    <button type="submit" class="mt-5 w-full rounded-lg bg-yellow-500 py-2 font-semibold">Continue</button>
-                    <p class="text-start text-xs text-gray-300">
-                        We will securely share your data with payhere.lk, dasun.dev, and this website to process your order. See our
-                        <a href="{{ route("privacy-policy") }}" class="underline">privacy policy</a>
-                        for details.
-                    </p>
-                </div>
-
                 @isset($data['platform'])
                     <input type="hidden" name="platform" value="{{ $data['platform'] }}">
                 @endisset
@@ -91,6 +68,29 @@
                 <input type="hidden" name="currency" value="{{ $data['currency'] }}">
                 <input type="hidden" name="amount" value="{{ $data['amount'] }}">
                 <input type="hidden" name="hash" value="{{ $data['hash'] }}">
+
+                <div class="text-base font-semibold text-white md:text-lg">Please enter your details</div>
+                <p class="mt-2 text-xs text-white md:text-sm">We collect this information to process your license and send it to you.</p>
+                <div class="mt-10 flex flex-col gap-5">
+                    <div class="flex flex-col gap-2">
+                        <label for="firstName" class="text-base text-white">First name</label>
+                        <input id="firstName" name="first_name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="lastName" class="text-base text-white">Last name</label>
+                        <input id="lastName" name="last_name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="email" class="text-base text-white">Email address</label>
+                        <input id="email" name="email" type="email" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
+                    </div>
+                    <button type="submit" class="mt-5 w-full rounded-lg bg-yellow-500 py-2 font-semibold">Continue</button>
+                    <p class="text-start text-xs text-gray-300">
+                        We will securely share your data with payhere.lk, dasun.dev, and this website to process your order. See our
+                        <a href="{{ route("privacy-policy") }}" class="underline">privacy policy</a>
+                        for details.
+                    </p>
+                </div>
             </form>
         </div>
     </div>
