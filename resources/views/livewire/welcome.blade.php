@@ -57,7 +57,7 @@
             <img class="hidden h-14 xl:block" src="{{ Vite::asset("resources/images/filament.svg") }}" alt="Filament logo" />
             <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Filament Panel for Manage Payments & Subscriptions</h3>
-                <p class="mt-10 text-sm text-white md:text-base">Our plugin includes a built-in Filament panel for managing payments and subscriptions, which allows for processing refunds, canceling subscriptions, and retrying subscriptions.</p>
+                <p class="mt-10 text-sm text-white md:text-base">Our plugin includes a built-in Filament panel for managing payments and subscriptions, which allows for processing refunds, canceling subscriptions, and retrying subscriptions with a beautiful user interface.</p>
                 <div class="mt-10">
                     <a href="/docs/panel/introduction.html" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
