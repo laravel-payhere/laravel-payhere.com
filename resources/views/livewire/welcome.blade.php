@@ -34,7 +34,23 @@
                 </div>
             </div>
             <div class="ml-5 hidden xl:block">
-                <x-torchlight-code language="php">class Checkout extends Controller { public function __invoke() { } }</x-torchlight-code>
+                <pre class="absolute top-10 w-2/5 rounded-xl border border-white border-opacity-20 px-8 shadow-2xl">
+                    <x-torchlight-code language='php' >
+                        use PayHere\PayHere;
+
+                        class Checkout extends Controller
+                        {
+                            public function __invoke()
+                            {
+                                return PayHere::builder()
+                                    ->guest()
+                                    ->title('Perpetual License (1 Year)')
+                                    ->amount(30000)
+                                    ->checkout();
+                            }
+                        }
+                    </x-torchlight-code>
+                </pre>
             </div>
         </div>
         <div class="bg-feature-reverse flex items-center justify-between overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
