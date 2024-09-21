@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Services;
 
+use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
 
@@ -13,6 +14,7 @@ final readonly class Changelog
      * Get the latest release from the changelog.
      *
      * @return array<string, array<string, array<int, string>|string>>
+     * @throws ConnectionException
      */
     public function getReleases(): array
     {
