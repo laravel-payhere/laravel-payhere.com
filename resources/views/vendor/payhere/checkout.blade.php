@@ -9,6 +9,16 @@
 
     <title>{{ config("app.name", "Laravel") }}</title>
 
+    <meta name="title" content="PayHere for Laravel" />
+    <meta name="description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ config('app.url') }}" />
+    <meta property="og:title" content="PayHere for Laravel" />
+    <meta property="og:description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
+    <meta property="og:image" content="{{ Vite::asset("resources/images/card.png") }}" />
+
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net" />
     <link href="https://fonts.bunny.net/css?family=ubuntu:400,500,700" rel="stylesheet" />
