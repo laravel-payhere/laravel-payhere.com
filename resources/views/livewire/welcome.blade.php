@@ -30,7 +30,7 @@
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Simplified HTML Form Based APIs</h3>
                 <p class="mt-10 text-sm text-white md:text-base">PayHere offers four different types of HTML form-based APIs to suit various needs. One of these is the recurring checkout API for subscriptions (as shown on the right). It's a simple HTML form-based POST API, which you can easily implement without leaving the PHP code base.</p>
                 <div class="mt-10">
-                    <a href="https://laravel-payhere.test/docs/builder/examples.html#recurring-checkout" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
+                    <a href="/docs/builder/examples.html#recurring-checkout" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
             <div class="ml-5 hidden xl:block">
@@ -43,7 +43,7 @@
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Filament Panel for Manage Payments & Subscriptions</h3>
                 <p class="mt-10 text-sm text-white md:text-base">Our plugin includes a built-in Filament panel for managing payments and subscriptions, which allows for processing refunds, canceling subscriptions, and retrying subscriptions.</p>
                 <div class="mt-10">
-                    <a href="https://laravel-payhere.test/docs/panel/introduction.html" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
+                    <a href="/docs/panel/introduction.html" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Intermediate RESTful API</h3>
                 <p class="mt-10 text-sm text-white md:text-base">PayHere provides RESTful APIs for handling payments, refunds, and subscriptions. Our plugin comes with an intermediate API to easily connect with the PayHere API.</p>
                 <div class="mt-10">
-                    <a href="https://laravel-payhere.test/docs/rest-api/introduction.html" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
+                    <a href="/docs/rest-api/introduction.html" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
             <div class="ml-0 hidden md:ml-5 xl:block">
