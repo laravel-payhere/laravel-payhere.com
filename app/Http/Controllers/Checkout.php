@@ -1,10 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Controllers;
 
 use PayHere\PayHere;
 
-class Checkout extends Controller
+final class Checkout extends Controller
 {
     public function __invoke()
     {

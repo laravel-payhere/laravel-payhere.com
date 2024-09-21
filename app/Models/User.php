@@ -35,6 +35,11 @@ final class User extends Authenticatable implements PayHerePanelUser
         'remember_token',
     ];
 
+    public function canAccessPayHerePanel(): bool
+    {
+        return $this->email === 'hello@dasun.dev';
+    }
+
     /**
      * Get the attributes that should be cast.
      *
@@ -46,10 +51,5 @@ final class User extends Authenticatable implements PayHerePanelUser
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
-    }
-
-    public function canAccessPayHerePanel(): bool
-    {
-        return $this->email === 'hello@dasun.dev';
     }
 }
