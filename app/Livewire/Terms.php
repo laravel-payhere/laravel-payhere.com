@@ -7,5 +7,5 @@ namespace App\Livewire;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-#[Title('Terms and Conditions')]
+#[Title('Terms and Conditions - Laravel PayHere')]
 final class Terms extends Component {}

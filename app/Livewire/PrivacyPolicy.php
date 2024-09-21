@@ -7,5 +7,5 @@ namespace App\Livewire;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-#[Title('Privacy Policy')]
+#[Title('Privacy Policy - Laravel PayHere')]
 final class PrivacyPolicy extends Component {}

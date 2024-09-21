@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Cache;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-#[Title('Changelog')]
+#[Title('Changelog - Laravel PayHere')]
 final class Changelog extends Component
 {
     public function render(ChangelogService $changelog): View

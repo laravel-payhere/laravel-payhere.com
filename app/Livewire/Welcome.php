@@ -7,5 +7,5 @@ namespace App\Livewire;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-#[Title('Welcome')]
+#[Title('PayHere for Laravel')]
 final class Welcome extends Component {}

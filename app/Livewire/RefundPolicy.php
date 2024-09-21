@@ -7,5 +7,5 @@ namespace App\Livewire;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-#[Title('Refund Policy')]
+#[Title('Refund Policy - Laravel PayHere')]
 final class RefundPolicy extends Component {}
