@@ -36,6 +36,21 @@
         </div>
         <div class="mt-0 lg:mt-20">
             <form id="checkoutForm" action="{{ $data['action'] }}" method="post">
+                @php
+                    unset($data['customer']['first_name']);
+                    unset($data['customer']['last_name']);
+                    unset($data['customer']['email']);
+                @endphp
+
+                @foreach ($data['customer'] as $key => $value)
+                    <input type="hidden" name="{{ $key }}" value="{{ $value }}">
+                @endforeach
+
+                @isset($data['recurring'])
+                    <input type="hidden" name="recurrence" value="{{ $data['recurring']['recurrence'] }}">
+                    <input type="hidden" name="duration" value="{{ $data['recurring']['duration'] }}">
+                @endisset
+
                 @isset($data['platform'])
                     <input type="hidden" name="platform" value="{{ $data['platform'] }}">
                 @endisset
@@ -60,10 +75,6 @@
                     <input type="hidden" name="{{ $key }}" value="{{ $value }}">
                 @endforeach
 
-                <input type="hidden" name="phone" value="">
-                <input type="hidden" name="address" value="">
-                <input type="hidden" name="city" value="">
-                <input type="hidden" name="country" value="">
                 <input type="hidden" name="merchant_id" value="{{ $data['merchant_id'] }}">
                 <input type="hidden" name="notify_url" value="{{ $data['notify_url'] }}">
                 <input type="hidden" name="return_url" value="{{ $data['return_url'] }}">
