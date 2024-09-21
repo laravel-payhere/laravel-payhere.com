@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Services;
 
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Http;
 
 final readonly class Changelog
 {
@@ -15,9 +16,14 @@ final readonly class Changelog
      */
     public function getReleases(): array
     {
+        $response = Http::withToken(config('services.github.token'))
+            ->get('https://raw.githubusercontent.com/laravel-payhere/laravel-payhere/refs/heads/1.x/CHANGELOG.md');
+
+        $content = $response->body();
+
         $blocks = preg_split(
             '/## Version/',
-            File::get(base_path('CHANGELOG.md')),
+            $content,
             -1,
             PREG_SPLIT_NO_EMPTY
         );
