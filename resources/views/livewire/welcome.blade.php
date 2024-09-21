@@ -88,18 +88,6 @@
                                     "amount": 100,
                                     "customer": {
                                         "fist_name": "",
-                                        "last_name": "",
-                                        "email": "",
-                                        "phone": "",
-                                        "delivery_details": {
-                                            "address": "",
-                                            "city": "",
-                                            "country": ""
-                                        }
-                                    },
-                                }
-                            ]
-                        }
                     </x-torchlight-code>
                 </pre>
             </div>
