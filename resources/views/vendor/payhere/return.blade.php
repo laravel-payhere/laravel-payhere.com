@@ -10,7 +10,8 @@
     <link rel="dns-prefetch" href="//fonts.bunny.net" />
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600" rel="stylesheet" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Scripts -->
+    @vite(["resources/css/app.css", "resources/js/app.js"])
 </head>
 <body class="antialiased">
 <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-gray-100 selection:bg-red-500 selection:text-white">
@@ -23,7 +24,7 @@
                 </svg>
             </div>
             <div class="ml-6">
-                <h2 class="text-xl font-semibold text-gray-900">Payment successful</h2>
+                <div class="text-xl font-semibold text-gray-900">Payment successful</div>
 
                 <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
                     Your payment is currently being verified.
