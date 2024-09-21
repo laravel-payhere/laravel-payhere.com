@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="ml-5 hidden xl:block">
-                <img class="absolute top-10 w-2/5" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
+                <x-torchlight-code language="php">class Checkout extends Controller { public function __invoke() { } }</x-torchlight-code>
             </div>
         </div>
         <div class="bg-feature-reverse flex items-center justify-between overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
