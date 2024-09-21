@@ -21,6 +21,8 @@ final readonly class Changelog
         $response = Http::withToken(config('services.github.token'))
             ->get('https://raw.githubusercontent.com/laravel-payhere/laravel-payhere/refs/heads/1.x/CHANGELOG.md');
 
+        abort_if($response->failed(), 500);
+
         $content = $response->body();
 
         $blocks = preg_split(
