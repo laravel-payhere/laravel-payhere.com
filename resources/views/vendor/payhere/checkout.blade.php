@@ -60,12 +60,12 @@
                     <input type="hidden" name="{{ $key }}" value="{{ $value }}">
                 @endforeach
 
-                <input type="hidden" name="merchant_id" value="{{ $data['merchant_id'] }}">
                 <input type="hidden" name="email" value="">
                 <input type="hidden" name="phone" value="">
                 <input type="hidden" name="address" value="">
                 <input type="hidden" name="city" value="">
                 <input type="hidden" name="country" value="">
+                <input type="hidden" name="merchant_id" value="{{ $data['merchant_id'] }}">
                 <input type="hidden" name="notify_url" value="{{ $data['notify_url'] }}">
                 <input type="hidden" name="return_url" value="{{ $data['return_url'] }}">
                 <input type="hidden" name="cancel_url" value="{{ $data['cancel_url'] }}">
