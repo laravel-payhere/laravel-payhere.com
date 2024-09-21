@@ -72,7 +72,36 @@
                 </div>
             </div>
             <div class="ml-0 hidden md:ml-5 xl:block">
-                <img class="absolute top-5 w-2/5" src="{{ Vite::asset("resources/images/api-response.png") }}" alt="Recurring API Example" />
+                <pre class="absolute top-10 w-2/5 rounded-xl border border-white border-opacity-20 px-8 shadow-2xl">
+                    <x-torchlight-code language='json' >
+                        {
+                            "status": 1,
+                            "msg": "Found 2 payments",
+                            "data": [
+                                {
+                                    "payment_id": 320032426827,
+                                    "order_id": "676181237",
+                                    "date": "2024-09-21 16:42:37",
+                                    "description": "Test",
+                                    "status": "RECEIVED",
+                                    "currency": "LKR",
+                                    "amount": 100,
+                                    "customer": {
+                                        "fist_name": "",
+                                        "last_name": "",
+                                        "email": "",
+                                        "phone": "",
+                                        "delivery_details": {
+                                            "address": "",
+                                            "city": "",
+                                            "country": ""
+                                        }
+                                    },
+                                }
+                            ]
+                        }
+                    </x-torchlight-code>
+                </pre>
             </div>
         </div>
     </section>
