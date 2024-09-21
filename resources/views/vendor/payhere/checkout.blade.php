@@ -40,8 +40,12 @@
                 <p class="mt-2 text-xs text-white md:text-sm">We collect this information to process your license and send it to you.</p>
                 <div class="mt-10 flex flex-col gap-5">
                     <div class="flex flex-col gap-2">
-                        <label for="name" class="text-base text-white">Your name</label>
-                        <input id="name" name="name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
+                        <label for="firstName" class="text-base text-white">First name</label>
+                        <input id="firstName" name="first_name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="lastName" class="text-base text-white">Last name</label>
+                        <input id="lastName" name="last_name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
                     </div>
                     <div class="flex flex-col gap-2">
                         <label for="email" class="text-base text-white">Email address</label>
