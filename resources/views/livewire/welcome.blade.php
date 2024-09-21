@@ -66,7 +66,7 @@
         <div class="bg-feature relative flex gap-10 overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
             <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Intermediate RESTful API</h3>
-                <p class="mt-10 text-sm text-white md:text-base">PayHere provides RESTful APIs for handling payments, refunds, and subscriptions. Our plugin comes with an intermediate API to easily connect with the PayHere API.</p>
+                <p class="mt-10 text-sm text-white md:text-base">PayHere provides RESTful APIs for handling payments, refunds, and subscriptions. Our plugin includes an intermediate API that makes it easy to connect with the PayHere API. This is extremely helpful when consuming REST APIs from a mobile app.</p>
                 <div class="mt-10">
                     <a href="/docs/rest-api/introduction.html" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
