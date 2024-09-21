@@ -60,7 +60,6 @@
                     <input type="hidden" name="{{ $key }}" value="{{ $value }}">
                 @endforeach
 
-                <input type="hidden" name="email" value="">
                 <input type="hidden" name="phone" value="">
                 <input type="hidden" name="address" value="">
                 <input type="hidden" name="city" value="">
