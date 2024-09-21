@@ -7,8 +7,10 @@ namespace App\Livewire;
 use App\Services\Changelog as ChangelogService;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Cache;
+use Livewire\Attributes\Title;
 use Livewire\Component;
 
+#[Title('Changelog')]
 final class Changelog extends Component
 {
     public function render(ChangelogService $changelog): View

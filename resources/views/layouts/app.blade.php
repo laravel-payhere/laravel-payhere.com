@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-    <title>{{ $title ?? config('app.name') }}</title>
+    <title>{{ $title .' - '. config('app.name') }}</title>
 
     <meta name="title" content="PayHere for Laravel" />
     <meta name="description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
