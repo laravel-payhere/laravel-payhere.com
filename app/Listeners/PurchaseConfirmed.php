@@ -23,7 +23,7 @@ class PurchaseConfirmed
      */
     private function createLicense(Payment $payment): void
     {
-
+        $customer = $this->fetchPayHereCustomer($payment);
     }
 
     private function fetchPayHereCustomer(Payment $payment): ?array
