@@ -36,16 +36,14 @@ final class PurchaseConfirmed
 
         $token = config('license-api.token');
 
-        $response = Http::withToken($token)->post('https://www.dasun.dev/api/license', [
+        Http::acceptJson()->withToken($token)->post('https://www.dasun.dev/api/license', [
             'name' => $customer['fist_name'].' '.$customer['last_name'],
             'email' => $customer['email'],
             'license' => 'Perpetual License (1 Year)',
             'expires_at' => Carbon::now()->addYear(),
             'purchasable_type' => 'App\Models\Package',
-            'purchasable_id' => 1,
+            'purchasable_id' => '4',
         ]);
-
-        dd($response->json());
     }
 
     /**
