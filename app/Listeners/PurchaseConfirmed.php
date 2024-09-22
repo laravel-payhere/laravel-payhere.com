@@ -23,8 +23,13 @@ class PurchaseConfirmed
      */
     private function createLicense(Payment $payment): void
     {
+
+    }
+
+    private function fetchPayHereCustomer(Payment $payment): ?array
+    {
         $response = Http::get(route('payhere.api.payment.show', ['id' => $payment->payhere_payment_id]));
 
-        abort_if($response->failed(), 500);
+        return $response->json()['data']['customer'] ?? null;
     }
 }
