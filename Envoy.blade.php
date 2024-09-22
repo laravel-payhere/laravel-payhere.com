@@ -42,11 +42,6 @@ php artisan view:cache
 php artisan icons:cache
 @endtask
 
-@task('fetch-fonts')
-cd /home/laravel/laravel-payhere
-php artisan google-fonts:fetch
-@endtask
-
 @task('build-assets')
 cd /home/laravel/laravel-payhere
 npm run build
@@ -55,11 +50,6 @@ npm run build
 @task('migrate-database')
 cd /home/laravel/laravel-payhere
 php artisan migrate --force
-@endtask
-
-@task('reload-octane-server')
-cd /home/laravel/laravel-payhere
-php artisan octane:reload
 @endtask
 
 @task('restart-queue-workers')
