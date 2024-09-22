@@ -7,6 +7,7 @@ namespace App\Listeners;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 use PayHere\Events\PaymentVerified;
 use PayHere\Models\Payment;
 
@@ -47,7 +48,9 @@ final class PurchaseConfirmed
      */
     private function fetchCustomer(Payment $payment): ?array
     {
-        $response = Http::get(route('payhere.api.payment.show', ['id' => $payment->payhere_payment_id]));
+        $response = Http::get(route('payhere.api.payment.show', ['id' => $payment->order_id]));
+
+        Log::info($payment);
 
         if ($response->successful()) {
             return $response->json('data.customer');
