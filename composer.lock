@@ -2096,17 +2096,17 @@
         },
         {
             "name": "laravel-payhere/laravel-payhere",
-            "version": "v1.0.0-beta.21",
+            "version": "v1.0.0-beta.22",
             "source": {
                 "type": "git",
                 "url": "git@github.com:laravel-payhere/laravel-payhere.git",
-                "reference": "3b972719d494999eec5dd8faa1875353b68e65be"
+                "reference": "02f96e8f918d401b675cf11b220e5dc859d67f85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.dasun.dev/dist/laravel-payhere/laravel-payhere/laravel-payhere-laravel-payhere-3b972719d494999eec5dd8faa1875353b68e65be-zip-ae5a5c.zip",
-                "reference": "3b972719d494999eec5dd8faa1875353b68e65be",
-                "shasum": "ea52051810d81b00f89dfd154b5585910d967dda"
+                "url": "https://satis.dasun.dev/dist/laravel-payhere/laravel-payhere/laravel-payhere-laravel-payhere-02f96e8f918d401b675cf11b220e5dc859d67f85-zip-76b83e.zip",
+                "reference": "02f96e8f918d401b675cf11b220e5dc859d67f85",
+                "shasum": "1b9dbb68da5893dd6d8716836cdbcf9abfc12945"
             },
             "require": {
                 "filament/filament": "^3.2",
@@ -2185,7 +2185,7 @@
                 }
             ],
             "description": "A Laravel plugin for PayHere payment gateway.",
-            "time": "2024-09-21T11:05:11+00:00"
+            "time": "2024-09-22T08:39:00+00:00"
         },
         {
             "name": "laravel/framework",
