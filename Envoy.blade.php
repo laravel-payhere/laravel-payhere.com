@@ -65,5 +65,5 @@ php artisan up
 
 @task('build-docs')
 cd /home/laravel/laravel-payhere.com/docs
-npm run docs:build
+npm run build
 @endtask
