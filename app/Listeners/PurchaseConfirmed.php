@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Listeners;
 
+use Exception;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Http;
@@ -29,11 +30,13 @@ final class PurchaseConfirmed
     {
         $customer = $this->fetchCustomer($payment);
 
-        abort_if(is_null($customer), 500);
+        if (is_null($customer)) {
+            throw new Exception('The customer is null');
+        }
 
         $token = config('license-api.token');
 
-        Http::withToken($token)->post('https://www.dasun.dev/api/license', [
+        $response = Http::withToken($token)->post('https://www.dasun.dev/api/license', [
             'name' => $customer['fist_name'].' '.$customer['last_name'],
             'email' => $customer['email'],
             'license' => 'Perpetual License (1 Year)',
@@ -41,6 +44,8 @@ final class PurchaseConfirmed
             'purchasable_type' => 'App\Models\Package',
             'purchasable_id' => 1,
         ]);
+
+        dd($response->json());
     }
 
     /**
