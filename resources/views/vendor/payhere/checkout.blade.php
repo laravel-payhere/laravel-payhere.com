@@ -7,7 +7,17 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-        <title>{{ config("app.name", "Laravel") }}</title>
+        <title>Checkout - Laravel PayHere</title>
+
+        <meta name="title" content="PayHere for Laravel" />
+        <meta name="description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ config("app.url") }}" />
+        <meta property="og:title" content="PayHere for Laravel" />
+        <meta property="og:description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
+        <meta property="og:image" content="{{ Vite::asset("resources/images/card.png") }}" />
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.bunny.net" />
@@ -17,7 +27,7 @@
         <!-- Scripts -->
         @vite(["resources/css/app.css", "resources/js/app.js"])
     </head>
-    <body class="h-auto bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased lg:h-screen">
+    <body class="min-h-screen bg-black bg-gradient-to-b from-blue-700 to-black font-sans antialiased">
         <main class="mx-auto grid h-full max-w-screen-2xl grid-cols-1 lg:grid-cols-3">
             <div class="order-2 col-span-1 h-full place-content-start px-5 py-10 lg:order-1 lg:px-14">
                 <div class="hidden lg:block">
@@ -35,13 +45,17 @@
                     </nav>
                 </div>
                 <div class="mt-0 lg:mt-20">
-                    <form action="#">
+                    <form id="checkoutForm" action="{{ $data["action"] }}" method="post">
                         <div class="text-base font-semibold text-white md:text-lg">Please enter your details</div>
                         <p class="mt-2 text-xs text-white md:text-sm">We collect this information to process your license and send it to you.</p>
                         <div class="mt-10 flex flex-col gap-5">
                             <div class="flex flex-col gap-2">
-                                <label for="name" class="text-base text-white">Your name</label>
-                                <input id="name" name="name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
+                                <label for="firstName" class="text-base text-white">First name</label>
+                                <input id="firstName" name="first_name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label for="lastName" class="text-base text-white">Last name</label>
+                                <input id="lastName" name="last_name" type="text" class="block w-full rounded-md border-0 bg-black bg-opacity-15 px-3 py-1.5 text-base text-white ring-1 ring-inset ring-gray-300 ring-opacity-15 placeholder:text-gray-400 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-500 sm:leading-6" required />
                             </div>
                             <div class="flex flex-col gap-2">
                                 <label for="email" class="text-base text-white">Email address</label>
@@ -54,6 +68,54 @@
                                 for details.
                             </p>
                         </div>
+
+                        @php
+                            unset($data["customer"]["first_name"]);
+                            unset($data["customer"]["last_name"]);
+                            unset($data["customer"]["email"]);
+                        @endphp
+
+                        @foreach ($data["customer"] as $key => $value)
+                            <input type="hidden" name="{{ $key }}" value="{{ $value }}" />
+                        @endforeach
+
+                        @isset($data["recurring"])
+                            <input type="hidden" name="recurrence" value="{{ $data["recurring"]["recurrence"] }}" />
+                            <input type="hidden" name="duration" value="{{ $data["recurring"]["duration"] }}" />
+                        @endisset
+
+                        @isset($data["platform"])
+                            <input type="hidden" name="platform" value="{{ $data["platform"] }}" />
+                        @endisset
+
+                        @isset($data["startup_fee"])
+                            <input type="hidden" name="startup_fee" value="{{ $data["startup_fee"] }}" />
+                        @endisset
+
+                        @isset($data["custom_1"])
+                            <input type="hidden" name="custom_1" value="{{ $data["custom_1"] }}" />
+                        @endisset
+
+                        @isset($data["custom_2"])
+                            <input type="hidden" name="custom_2" value="{{ $data["custom_2"] }}" />
+                        @endisset
+
+                        @isset($data["title"])
+                            <input type="hidden" name="items" value="{{ $data["title"] }}" />
+                        @endisset
+
+                        @foreach ($data["items"] as $key => $value)
+                            <input type="hidden" name="{{ $key }}" value="{{ $value }}" />
+                        @endforeach
+
+                        <input type="hidden" name="merchant_id" value="{{ $data["merchant_id"] }}" />
+                        <input type="hidden" name="notify_url" value="{{ $data["notify_url"] }}" />
+                        <input type="hidden" name="return_url" value="{{ $data["return_url"] }}" />
+                        <input type="hidden" name="cancel_url" value="{{ $data["cancel_url"] }}" />
+                        <input type="hidden" name="order_id" value="{{ $data["order_id"] }}" />
+                        <input type="hidden" name="currency" value="{{ $data["currency"] }}" />
+                        <input type="hidden" name="amount" value="{{ $data["amount"] }}" />
+                        <input type="hidden" name="hash" value="{{ $data["hash"] }}" />
                     </form>
                 </div>
             </div>

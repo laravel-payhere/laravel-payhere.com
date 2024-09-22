@@ -27,36 +27,69 @@
     <section id="features" class="flex flex-col gap-10 px-0 py-10 md:px-10 md:py-20">
         <div class="bg-feature relative flex gap-5 overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
             <div class="max-w-full xl:max-w-2xl">
-                <h3 class="text-xl font-semibold text-white md:text-2xl">Simplified HTML Form Based APIs</h3>
-                <p class="mt-10 text-sm text-white md:text-base">PayHere offers four different types of HTML form-based APIs to suit various needs. One of these is the recurring checkout API for subscriptions (as shown on the right). It's a simple HTML form-based POST API, which you can easily implement without leaving the PHP code base.</p>
+                <h3 class="text-xl font-semibold text-white md:text-2xl">HTML Form Based API Builder</h3>
+                <p class="mt-10 text-sm text-white md:text-base">PayHere uses HTML form-based APIs to process various types of checkouts, such as recurring checkout. Yes, the example you see (as shown on the right) is exactly the same one we use to check out your perpetual license using the HTML form-based API builder.</p>
                 <div class="mt-10">
-                    <a href="#" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
+                    <a href="/docs/builder/examples.html#recurring-checkout" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
             <div class="ml-5 hidden xl:block">
-                <img class="absolute top-10 w-2/5" src="{{ Vite::asset("resources/images/recurring-api-example.png") }}" alt="Recurring API Example" />
+                <pre class="absolute top-10 w-2/5 rounded-xl border border-white border-opacity-20 px-8 shadow-2xl">
+                    <x-torchlight-code language='php' >
+                        use PayHere\PayHere;
+
+                        class Checkout extends Controller
+                        {
+                            public function __invoke()
+                            {
+                                return PayHere::builder()
+                                    ->guest()
+                                    ->title('Perpetual License (1 Year)')
+                                    ->amount(30000)
+                                    ->checkout();
+                            }
+                        }
+                    </x-torchlight-code>
+                </pre>
             </div>
         </div>
         <div class="bg-feature-reverse flex items-center justify-between overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
             <img class="hidden h-14 xl:block" src="{{ Vite::asset("resources/images/filament.svg") }}" alt="Filament logo" />
             <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Filament Panel for Manage Payments & Subscriptions</h3>
-                <p class="mt-10 text-sm text-white md:text-base">Our plugin includes a built-in Filament panel for managing payments and subscriptions, which allows for processing refunds, canceling subscriptions, and retrying subscriptions.</p>
+                <p class="mt-10 text-sm text-white md:text-base">Our plugin includes a built-in Filament panel for managing payments and subscriptions, which allows for processing refunds, canceling subscriptions, and retrying subscriptions with a beautiful user interface.</p>
                 <div class="mt-10">
-                    <a href="#" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
+                    <a href="/docs/panel/introduction.html" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
         </div>
         <div class="bg-feature relative flex gap-10 overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
             <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Intermediate RESTful API</h3>
-                <p class="mt-10 text-sm text-white md:text-base">PayHere provides RESTful APIs for handling payments, refunds, and subscriptions. Our plugin comes with an intermediate API to easily connect with the PayHere API.</p>
+                <p class="mt-10 text-sm text-white md:text-base">PayHere provides RESTful APIs for handling payments, refunds, and subscriptions. Our plugin includes an intermediate API that makes it easy to connect with the PayHere API. This is extremely helpful when consuming REST APIs from a mobile app.</p>
                 <div class="mt-10">
-                    <a href="#" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
+                    <a href="/docs/rest-api/introduction.html" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
             <div class="ml-0 hidden md:ml-5 xl:block">
-                <img class="absolute top-5 w-2/5" src="{{ Vite::asset("resources/images/api-response.png") }}" alt="Recurring API Example" />
+                <pre class="absolute top-10 w-2/5 rounded-xl border border-white border-opacity-20 px-8 shadow-2xl">
+                    <x-torchlight-code language='json' >
+                        {
+                            "status": 1,
+                            "msg": "Found 2 payments",
+                            "data": [
+                                {
+                                    "payment_id": 320032426827,
+                                    "order_id": "676181237",
+                                    "date": "2024-09-21 16:42:37",
+                                    "description": "Test",
+                                    "status": "RECEIVED",
+                                    "currency": "LKR",
+                                    "amount": 100,
+                                    "customer": {
+                                        "fist_name": "",
+                    </x-torchlight-code>
+                </pre>
             </div>
         </div>
     </section>
@@ -64,7 +97,7 @@
         <h2 class="text-center text-2xl font-semibold text-white md:text-3xl xl:text-4xl">Pay once, use forever</h2>
         <p class="mt-2 px-5 text-center text-sm text-white opacity-70 md:px-0 md:text-base xl:text-lg">
             Every purchase includes a
-            <a href="#" class="underline">perpetual fallback license</a>
+            <a href="{{ route("perpetual-license") }}" class="underline">perpetual fallback license</a>
             that you can use forever.
         </p>
         <div class="mx-auto grid max-w-5xl grid-cols-1 lg:grid-cols-3">

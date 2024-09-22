@@ -6,13 +6,16 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "dasundev/laravel-payhere": "^1.0.0@beta",
+        "laravel-payhere/laravel-payhere": "^1.0.0-beta.21",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
-        "livewire/livewire": "^3.5"
+        "livewire/livewire": "^3.5",
+        "saloonphp/laravel-plugin": "^3.0",
+        "torchlight/torchlight-laravel": "^0.6.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
+        "laravel/envoy": "^2.9",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",

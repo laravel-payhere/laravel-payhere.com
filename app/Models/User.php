@@ -1,13 +1,16 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use PayHere\Filament\Contracts\PayHerePanelUser;
 
-class User extends Authenticatable
+final class User extends Authenticatable implements PayHerePanelUser
 {
     use HasFactory, Notifiable;
 
@@ -31,6 +34,11 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
+
+    public function canAccessPayHerePanel(): bool
+    {
+        return $this->email === 'hello@dasun.dev';
+    }
 
     /**
      * Get the attributes that should be cast.

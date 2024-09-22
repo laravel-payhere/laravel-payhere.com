@@ -4,7 +4,7 @@
         <p>A changelog of the latest Laravel PayHere plugin feature releases, and important bug fixes.</p>
 
         @foreach ($releases as $version => $release)
-            <div class="my-6">
+            <div class="my-10">
                 <span class="text-xs">{{ $release["publishedAt"] }}</span>
                 <h2 class="text-lg sm:text-xl md:text-2xl">{{ __("Version :v", ["v" => $version]) }}</h2>
                 <ul class="my-2 list-disc pl-8 md:pl-10">

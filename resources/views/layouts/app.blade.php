@@ -7,7 +7,17 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-        <title>{{ config("app.name", "Laravel") }}</title>
+        <title>{{ $title }}</title>
+
+        <meta name="title" content="PayHere for Laravel" />
+        <meta name="description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ config("app.url") }}" />
+        <meta property="og:title" content="PayHere for Laravel" />
+        <meta property="og:description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
+        <meta property="og:image" content="{{ Vite::asset("resources/images/card.png") }}" />
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.bunny.net" />
@@ -34,8 +44,8 @@
                             </svg>
                         </button>
                         <div x-cloak x-show="!open" class="hidden gap-8 lg:inline-flex">
-                            <a href="#features" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Features</a>
-                            <a href="#" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Docs</a>
+                            <a href="/#features" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Features</a>
+                            <a href="/docs" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Docs</a>
                             <a href="{{ route("changelog") }}" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Changelog</a>
                             <a href="{{ route("checkout") }}" class="rounded-xl bg-white bg-opacity-10 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-opacity-15">Purchase a license</a>
                         </div>
@@ -48,7 +58,7 @@
                                 </button>
                             </div>
                             <a href="#features" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Features</a>
-                            <a href="#" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Docs</a>
+                            <a href="/docs" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Docs</a>
                             <a href="{{ route("changelog") }}" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Changelog</a>
                             <a href="{{ route("checkout") }}" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Purchase a license</a>
                         </div>
