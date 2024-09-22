@@ -19,6 +19,9 @@
         <meta property="og:description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
         <meta property="og:image" content="{{ Vite::asset("resources/images/card.png") }}" />
 
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset("favicon-32x32.png") }}" />
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset("favicon-16x16.png") }}" />
+
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.bunny.net" />
         <link href="https://fonts.bunny.net/css?family=ubuntu:400,500,700" rel="stylesheet" />
