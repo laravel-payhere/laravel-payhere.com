@@ -24,6 +24,7 @@ final class PurchaseConfirmed implements ShouldQueue
     /**
      * Create a perpetual license for 1 year.
      *
+     * @param Payment $payment
      * @throws ConnectionException
      */
     private function createLicense(Payment $payment): void
