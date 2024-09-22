@@ -48,6 +48,9 @@ final class PurchaseConfirmed implements ShouldQueue
 
     /**
      * Fetch the customer details from PayHere using the provided payment.
+     *
+     * @param Payment $payment
+     * @return array|null
      */
     private function fetchCustomer(Payment $payment): ?array
     {
