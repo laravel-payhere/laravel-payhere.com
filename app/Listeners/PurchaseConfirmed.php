@@ -5,13 +5,14 @@ declare(strict_types=1);
 namespace App\Listeners;
 
 use Exception;
+use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Http;
 use PayHere\Events\PaymentVerified;
 use PayHere\Models\Payment;
 
-final class PurchaseConfirmed
+final class PurchaseConfirmed implements ShouldQueue
 {
     public function handle(PaymentVerified $event): void
     {
