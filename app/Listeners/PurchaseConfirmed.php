@@ -32,7 +32,7 @@ final class PurchaseConfirmed
 
         $token = config('license-api.token');
 
-        Http::withToken($token)->post('https://www.dasun.dev/licese/api', [
+        Http::withToken($token)->post('https://www.dasun.dev/api/license', [
             'name' => $customer['first_name'].' '.$customer['last_name'],
             'email' => $customer['email'],
             'license' => 'Perpetual License (1 Year)',
