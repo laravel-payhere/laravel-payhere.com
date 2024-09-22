@@ -28,6 +28,9 @@ final class CreateLicenseRequest extends Request implements HasBody
         return '/api/license';
     }
 
+    /**
+     * The default body for the request
+     */
     protected function defaultBody(): array
     {
         return $this->data;
