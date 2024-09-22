@@ -2,6 +2,7 @@
 
 namespace App\Listeners;
 
+use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Http;
 use PayHere\Events\PaymentVerified;
@@ -21,6 +22,7 @@ class PurchaseConfirmed
      *
      * @param Payment $payment
      * @return void
+     * @throws ConnectionException
      */
     private function createLicense(Payment $payment): void
     {
