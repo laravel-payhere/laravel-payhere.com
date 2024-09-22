@@ -50,8 +50,6 @@ final class PurchaseConfirmed
     {
         $response = Http::get(route('payhere.api.payment.show', ['id' => $payment->order_id]));
 
-        Log::info($payment);
-
         if ($response->successful()) {
             return $response->json('data.customer');
         }
