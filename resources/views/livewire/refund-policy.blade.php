@@ -16,7 +16,7 @@
         </ul>
 
         <h2 class="my-6 text-base sm:text-lg md:text-xl">How to Request an Exception</h2>
-        <p>If you believe you qualify for an exception, please contact us within 14 days of your purchase. Include your order number, a detailed description of the issue, and any relevant information that will help us assess your request.</p>
+        <p>If you believe you qualify for an exception, please contact us within 14 days of your purchase. Include your license key, a detailed description of the issue, and any relevant information that will help us assess your request.</p>
 
         <h2 class="my-6 text-base sm:text-lg md:text-xl">Contact Us</h2>
         <p>
