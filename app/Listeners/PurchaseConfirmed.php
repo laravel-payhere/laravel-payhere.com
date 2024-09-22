@@ -17,8 +17,9 @@ final class PurchaseConfirmed implements ShouldQueue
     /**
      * Handle the event.
      *
-     * @param PaymentVerified $event
+     * @param  PaymentVerified  $event
      * @return void
+     *
      * @throws ConnectionException
      */
     public function handle(PaymentVerified $event): void
@@ -31,7 +32,8 @@ final class PurchaseConfirmed implements ShouldQueue
     /**
      * Create a perpetual license for 1 year.
      *
-     * @param Payment $payment
+     * @param  Payment  $payment
+     *
      * @throws ConnectionException
      */
     private function createLicense(Payment $payment): void
