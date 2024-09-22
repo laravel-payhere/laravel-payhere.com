@@ -16,23 +16,7 @@ class LicenseConnector extends Connector
      */
     public function resolveBaseUrl(): string
     {
-        return '';
-    }
-
-    /**
-     * Default headers for every request
-     */
-    protected function defaultHeaders(): array
-    {
-        return [];
-    }
-
-    /**
-     * Default HTTP client options
-     */
-    protected function defaultConfig(): array
-    {
-        return [];
+        return 'https://www.dasun.dev';
     }
 
     protected function defaultAuth(): ?Authenticator
