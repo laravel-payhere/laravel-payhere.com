@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Integrations\License;
 
 use Saloon\Contracts\Authenticator;
@@ -7,7 +9,7 @@ use Saloon\Http\Auth\TokenAuthenticator;
 use Saloon\Http\Connector;
 use Saloon\Traits\Plugins\AcceptsJson;
 
-class LicenseConnector extends Connector
+final class LicenseConnector extends Connector
 {
     use AcceptsJson;
 
