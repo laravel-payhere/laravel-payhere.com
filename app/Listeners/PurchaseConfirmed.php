@@ -34,9 +34,9 @@ final class PurchaseConfirmed
             'name' => $customer['first_name'].' '.$customer['last_name'],
             'email' => $customer['email'],
             'license' => 'Perpetual License (1 Year)',
+            'expires_at' => Carbon::now()->addYear(),
             'purchasable_type' => 'App\Models\Package',
             'purchasable_id' => 1,
-            'expires_at' => Carbon::now()->addYear(),
         ]);
     }
 
