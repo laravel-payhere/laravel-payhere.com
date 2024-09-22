@@ -12,7 +12,7 @@ final class Checkout extends Controller
     {
         return PayHere::builder()
             ->guest()
-            ->title('Perpetual License (1 Year)')
+            ->title('Laravel PayHere - Perpetual License (1 Year)')
             ->amount(30000)
             ->checkout();
     }
