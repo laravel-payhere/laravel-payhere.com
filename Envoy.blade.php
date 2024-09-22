@@ -16,6 +16,7 @@ maintenance-mode-off
 @task('update-code')
 cd /home/laravel/laravel-payhere.com
 git pull origin main
+git submodule update --remote
 @endtask
 
 @task('install-dev-dependencies')
