@@ -10,6 +10,8 @@
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
+        "saloonphp/laravel-plugin": "^3.0",
+        "saloonphp/saloon": "^3.0",
         "torchlight/torchlight-laravel": "^0.6.0"
     },
     "require-dev": {
