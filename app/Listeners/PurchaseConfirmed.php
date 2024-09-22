@@ -14,6 +14,13 @@ use PayHere\Models\Payment;
 
 final class PurchaseConfirmed implements ShouldQueue
 {
+    /**
+     * Handle the event.
+     *
+     * @param PaymentVerified $event
+     * @return void
+     * @throws ConnectionException
+     */
     public function handle(PaymentVerified $event): void
     {
         $payment = $event->payment;
