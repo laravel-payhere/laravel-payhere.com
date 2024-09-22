@@ -8,7 +8,6 @@ use Exception;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Log;
 use PayHere\Events\PaymentVerified;
 use PayHere\Models\Payment;
 
