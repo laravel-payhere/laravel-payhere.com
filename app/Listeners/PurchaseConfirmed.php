@@ -28,6 +28,8 @@ final class PurchaseConfirmed
     {
         $customer = $this->fetchCustomer($payment);
 
+        abort_if(is_null($customer), 500);
+
         $token = config('license-api.token');
 
         Http::withToken($token)->post('https://www.dasun.dev/licese/api', [
