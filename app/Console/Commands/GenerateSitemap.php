@@ -15,7 +15,7 @@ final class GenerateSitemap extends Command
 
     public function handle(): void
     {
-        SitemapGenerator::create('https://laravel-payhere.com')
+        SitemapGenerator::create(config('app.url'))
             ->getSitemap()
             ->writeToFile(public_path('sitemap.xml'));
     }
