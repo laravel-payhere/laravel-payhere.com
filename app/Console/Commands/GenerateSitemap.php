@@ -11,7 +11,7 @@ final class GenerateSitemap extends Command
 {
     protected $signature = 'sitemap:generate';
 
-    protected $description = 'Generate the sitemap.';
+    protected $description = 'Generate the sitemap';
 
     public function handle(): void
     {
