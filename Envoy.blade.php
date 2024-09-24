@@ -8,6 +8,7 @@ migrate-database
 build-assets
 build-docs
 install-prod-dependencies
+generate-sitemap
 optimize
 restart-queue-workers
 maintenance-mode-off
@@ -66,4 +67,9 @@ php artisan up
 @task('build-docs')
 cd /home/laravel/laravel-payhere.com/docs
 npm run build
+@endtask
+
+@task('generate-sitemap')
+cd /home/laravel/laravel-payhere.com
+php artisan sitemap:generate
 @endtask
