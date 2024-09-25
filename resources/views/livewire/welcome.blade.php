@@ -30,7 +30,7 @@
                 <h3 class="text-xl font-semibold text-white md:text-2xl">HTML Form Based API Builder</h3>
                 <p class="mt-10 text-sm text-white md:text-base">PayHere uses HTML form-based APIs to process various types of checkouts, such as recurring checkout. Yes, the example you see (as shown on the right) is exactly the same one we use to check out your perpetual license using the HTML form-based API builder.</p>
                 <div class="mt-10">
-                    <a href="/docs/builder/examples.html#recurring-checkout" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
+                    <a href="{{ asset("docs/builder/examples.html") }}" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
             <div class="ml-5 hidden xl:block">
@@ -59,7 +59,7 @@
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Filament Panel for Manage Payments & Subscriptions</h3>
                 <p class="mt-10 text-sm text-white md:text-base">Our plugin includes a built-in Filament panel for managing payments and subscriptions, which allows for processing refunds, canceling subscriptions, and retrying subscriptions with a beautiful user interface.</p>
                 <div class="mt-10">
-                    <a href="/docs/panel/introduction.html" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
+                    <a href="{{ asset("docs/panel/introduction.html") }}" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                 <h3 class="text-xl font-semibold text-white md:text-2xl">Intermediate RESTful API</h3>
                 <p class="mt-10 text-sm text-white md:text-base">PayHere provides RESTful APIs for handling payments, refunds, and subscriptions. Our plugin includes an intermediate API that makes it easy to connect with the PayHere API. This is extremely helpful when consuming REST APIs from a mobile app.</p>
                 <div class="mt-10">
-                    <a href="/docs/rest-api/introduction.html" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
+                    <a href="{{ asset("docs/rest-api/introduction.html") }}" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
             </div>
             <div class="ml-0 hidden md:ml-5 xl:block">
