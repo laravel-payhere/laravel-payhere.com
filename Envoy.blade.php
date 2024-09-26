@@ -33,7 +33,7 @@ composer install --optimize-autoloader --no-dev
 
 @task('maintenance-mode-on')
 cd /home/laravel/laravel-payhere.com
-php artisan down --secret=c2fBxu9p8o --message="We'll be back soon!"
+php artisan down --secret=c2fBxu9p8o
 @endtask
 
 @task('optimize')
