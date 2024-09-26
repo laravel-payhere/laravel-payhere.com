@@ -3,6 +3,8 @@ export default {
     content: [
         "./resources/**/*.blade.php",
         './storage/framework/views/*.php',
+        './config/support-bubble.php',
+        './vendor/spatie/laravel-support-bubble/resources/views/**/*.blade.php',
     ],
     theme: {
         fontFamily: {
