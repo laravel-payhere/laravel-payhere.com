@@ -237,5 +237,6 @@
                 </div>
             </div>
         </main>
+        <x-support-bubble />
     </body>
 </html>

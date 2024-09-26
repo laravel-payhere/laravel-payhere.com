@@ -90,5 +90,6 @@
                 </footer>
             </div>
         </div>
+        <x-support-bubble />
     </body>
 </html>

@@ -6,12 +6,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "aws/aws-sdk-php": "^3.322",
         "laravel-payhere/laravel-payhere": "^1.0.0-beta.21",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
         "saloonphp/laravel-plugin": "^3.0",
         "spatie/laravel-sitemap": "^7.2",
+        "spatie/laravel-support-bubble": "^1.7",
         "torchlight/torchlight-laravel": "^0.6.0"
     },
     "require-dev": {
