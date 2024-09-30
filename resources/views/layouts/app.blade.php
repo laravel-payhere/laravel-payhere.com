@@ -77,7 +77,7 @@
                 </main>
 
                 <footer class="mt-0 flex flex-col items-start gap-3 px-5 py-8 md:items-center md:gap-5 md:px-0 md:py-8 lg:mt-20">
-                    <a href="{{ config("app.url") }}">
+                    <a href="/">
                         <img src="{{ Vite::asset("resources/images/logo@2.svg") }}" class="h-6 md:h-8" alt="Laravel PayHere Logo" />
                     </a>
                     <div class="inline-flex flex-col gap-2 md:flex-row md:gap-10">
