@@ -19,11 +19,12 @@
         <meta property="og:description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
         <meta property="og:image" content="{{ Vite::asset("resources/images/card.png") }}" />
 
-        <link rel="shortcut icon" href="{{ asset("favicon.ico") }}" />
         <link rel="icon" type="image/png" sizes="32x32" href="{{ asset("favicon-32x32.png") }}" />
         <link rel="icon" type="image/png" sizes="16x16" href="{{ asset("favicon-16x16.png") }}" />
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset("apple-touch-icon.png") }}" />
         <link rel="manifest" href="{{ asset("webmanifest.json") }}" />
+
+        <link rel="canonical" href="{{ url()->current() }}" />
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.bunny.net" />

@@ -24,6 +24,8 @@
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset("apple-touch-icon.png") }}" />
         <link rel="manifest" href="{{ asset("webmanifest.json") }}" />
 
+        <link rel="canonical" href="{{ url()->current() }}" />
+
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.bunny.net" />
         <link href="https://fonts.bunny.net/css?family=ubuntu:400,500,700" rel="stylesheet" />
