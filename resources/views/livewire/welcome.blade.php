@@ -9,7 +9,7 @@
                 for Laravel
             </h1>
             <p class="text-start leading-7 text-white md:text-center md:text-lg lg:text-xl">Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin.</p>
-            <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.png") }}" alt="Filament panel's screenshot" />
+            <img class="w-full scale-100 md:scale-90" src="{{ Vite::asset("resources/images/screenshot.webp") }}" alt="Filament panel's screenshot" />
         </div>
     </section>
     <section class="px-10 py-10 md:py-20 lg:px-0">
