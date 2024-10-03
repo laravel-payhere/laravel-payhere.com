@@ -12,6 +12,7 @@
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
         "saloonphp/laravel-plugin": "^3.0",
+        "spatie/laravel-google-fonts": "^1.4",
         "spatie/laravel-sitemap": "^7.2",
         "spatie/laravel-support-bubble": "^1.7",
         "torchlight/torchlight-laravel": "^0.6.0"
