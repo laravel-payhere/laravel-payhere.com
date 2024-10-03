@@ -17,7 +17,7 @@
         <meta property="og:url" content="{{ config("app.url") }}" />
         <meta property="og:title" content="PayHere for Laravel" />
         <meta property="og:description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
-        <meta property="og:image" content="{{ Vite::asset("resources/images/card.png") }}" />
+        <meta property="og:image" content="{{ Vite::asset("resources/images/card.webp") }}" />
 
         <link rel="icon" type="image/png" sizes="32x32" href="{{ asset("favicon-32x32.png") }}" />
         <link rel="icon" type="image/png" sizes="16x16" href="{{ asset("favicon-16x16.png") }}" />
@@ -36,7 +36,7 @@
     </head>
     <body class="bg-black font-sans antialiased">
         <div class="bg-gradient-to-b from-blue-700 to-black">
-            <div class="z-20 h-[500px] bg-[url('/resources/images/hero-background.png')] opacity-80 lg:h-[1000px]" />
+            <div class="z-20 h-[500px] bg-[url('/resources/images/hero-background.webp')] opacity-80 lg:h-[1000px]" />
         </div>
         <div class="absolute top-0 w-full">
             <div class="mx-auto max-w-7xl">
