@@ -9,6 +9,7 @@ build-assets
 build-docs
 install-prod-dependencies
 generate-sitemap
+fetch-google-fonts
 optimize
 restart-queue-workers
 maintenance-mode-off
@@ -72,4 +73,9 @@ npm run build
 @task('generate-sitemap')
 cd /home/laravel/laravel-payhere.com
 php artisan sitemap:generate
+@endtask
+
+@task('fetch-google-fonts')
+cd /home/laravel/laravel-payhere.com
+php artisan google-fonts:fetch
 @endtask
