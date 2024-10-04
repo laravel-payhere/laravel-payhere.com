@@ -29,7 +29,7 @@ final class NewLicenseSold extends Mailable implements ShouldQueue
     public function content(): Content
     {
         return new Content(
-            markdown: 'emails.new-license-purchased',
+            markdown: 'emails.new-license-sold',
         );
     }
 
