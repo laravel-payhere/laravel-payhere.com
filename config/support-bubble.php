@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     /*
      * Enable or disable fields in the support bubble.
@@ -50,11 +52,11 @@ return [
      */
     'form_action_route' => 'supportBubble.submit',
 
-     /**
+    /**
      * The positioning of the bubble and the form, change this between `right-to-left` and `left-to-right`.
      * If you want to use RTL, you must have your layout set to RTL like this
      * <html lang="ar-TN" dir="rtl">
      * By default, the value of this is `left-to-right`.
      */
-    'direction' => 'left-to-right'
+    'direction' => 'left-to-right',
 ];

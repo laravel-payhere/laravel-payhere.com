@@ -21,7 +21,7 @@ final class NewLicenseSold extends Mailable implements ShouldQueue
     {
         return new Envelope(
             to: 'hello@dasun.dev',
-            subject: "New License Sold! 🙌",
+            subject: 'New License Sold! 🙌',
             tags: ['laravel-payhere']
         );
     }
