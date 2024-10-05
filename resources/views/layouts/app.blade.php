@@ -17,7 +17,7 @@
         <meta property="og:url" content="{{ config("app.url") }}" />
         <meta property="og:title" content="PayHere for Laravel" />
         <meta property="og:description" content="Easily and securely integrate PayHere into your Laravel application with our trusted third-party plugin." />
-        <meta property="og:image" content="{{ Vite::asset("resources/images/card.webp") }}" />
+        <meta property="og:image" content="{{ Vite::asset("resources/images/laravelpayhere-og.webp") }}" />
 
         <link rel="icon" type="image/png" sizes="32x32" href="{{ asset("favicon-32x32.png") }}" />
         <link rel="icon" type="image/png" sizes="16x16" href="{{ asset("favicon-16x16.png") }}" />
