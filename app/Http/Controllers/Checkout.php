@@ -13,7 +13,7 @@ final class Checkout extends Controller
         return PayHere::builder()
             ->guest()
             ->title('Perpetual License (1 Year)')
-            ->amount(30000)
+            ->amount(config('pricing.selling_price'))
             ->checkout();
     }
 }

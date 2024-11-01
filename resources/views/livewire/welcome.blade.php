@@ -102,10 +102,24 @@
         </p>
         <div class="mx-auto grid max-w-5xl grid-cols-1 lg:grid-cols-3">
             <div class="col-span-2 mt-10 flex flex-col bg-gradient-to-l from-blue-700 px-5 pb-5 pt-10 md:px-20 lg:py-20">
+                @php
+                    $fixedSellingPrice = config("pricing.fixed_price");
+                    $currentPrice = config("pricing.selling_price");
+                    $discountPercentage = 0;
+
+                    if ($currentPrice < $fixedSellingPrice) {
+                        $discountPercentage = (1 - $currentPrice / $fixedSellingPrice) * 100;
+                    }
+                @endphp
+
+                @if ($discountPercentage)
+                    <span class="text-md mb-10 w-[120px] rounded-full bg-red-500 px-3 py-2 text-center font-medium text-white">SAVE {{ number_format($discountPercentage) }}%</span>
+                @endif
+
                 <span class="text-sm text-white lg:text-base">For unlimited projects</span>
                 <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
                 <p class="py-5 text-white md:text-base lg:text-lg">Easily integrate PayHere into your Laravel application like a pro.</p>
-                <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.30,000</span>
+                <span class="font-['Ubuntu'] text-5xl font-bold text-white">Rs.{{ number_format($currentPrice) }}</span>
                 <div class="mt-10">
                     <a href="{{ route("checkout") }}" class="rounded-2xl bg-white bg-opacity-10 px-8 py-4 text-base font-semibold text-white transition-colors hover:bg-opacity-20">Buy Laravel PayHere</a>
                 </div>

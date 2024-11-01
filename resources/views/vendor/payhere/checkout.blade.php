@@ -140,10 +140,24 @@
                     </nav>
                 </div>
                 <div class="mt-20 flex flex-col lg:mt-0">
+                    @php
+                        $fixedSellingPrice = config("pricing.fixed_price");
+                        $currentPrice = config("pricing.selling_price");
+                        $discountPercentage = 0;
+
+                        if ($currentPrice < $fixedSellingPrice) {
+                            $discountPercentage = (1 - $currentPrice / $fixedSellingPrice) * 100;
+                        }
+                    @endphp
+
+                    @if ($discountPercentage)
+                        <span class="text-md mb-10 w-[120px] rounded-full bg-red-500 px-3 py-2 text-center font-medium text-white">SAVE {{ number_format($discountPercentage) }}%</span>
+                    @endif
+
                     <span class="text-sm text-white lg:text-base">For unlimited projects</span>
                     <h3 class="mt-1 text-3xl font-bold text-yellow-500">Perpetual License</h3>
                     <p class="py-5 text-white md:text-base lg:text-lg">Easily integrate PayHere into your Laravel application like a pro.</p>
-                    <span class="font-['Ubuntu'] text-4xl font-bold text-white lg:text-5xl">Rs.30,000</span>
+                    <span class="font-['Ubuntu'] text-4xl font-bold text-white lg:text-5xl">Rs.{{ number_format($currentPrice) }}</span>
                     <div class="mt-10 flex flex-wrap gap-2 sm:gap-5">
                         <ul class="flex flex-col gap-x-5 gap-y-2">
                             <li class="inline-flex items-center gap-2 text-sm text-white md:text-base">
