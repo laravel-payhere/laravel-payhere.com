@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
@@ -25,6 +26,7 @@ final class AppServiceProvider extends ServiceProvider
     {
         $this->configureUrl();
         $this->configureCommands();
+        $this->bootDirectives();
     }
 
     /**
@@ -49,5 +51,16 @@ final class AppServiceProvider extends ServiceProvider
         DB::prohibitDestructiveCommands(
             $this->app->isProduction()
         );
+    }
+
+    protected function bootDirectives(): void
+    {
+        Blade::directive('umamiJS', function () {
+            if (! $this->app->isProduction()) {
+                return null;
+            }
+
+            return "<?php echo view('js.umami'); ?>";
+        });
     }
 }
