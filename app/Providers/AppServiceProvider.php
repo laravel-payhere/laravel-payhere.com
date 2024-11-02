@@ -26,7 +26,7 @@ final class AppServiceProvider extends ServiceProvider
     {
         $this->configureUrl();
         $this->configureCommands();
-        $this->bootDirectives();
+        $this->configureBladeDirectives();
     }
 
     /**
@@ -53,7 +53,12 @@ final class AppServiceProvider extends ServiceProvider
         );
     }
 
-    protected function bootDirectives(): void
+    /**
+     * Configure the application's blade directives.
+     *
+     * @return void
+     */
+    private function configureBladeDirectives(): void
     {
         Blade::directive('umamiJS', function () {
             if (! $this->app->isProduction()) {
