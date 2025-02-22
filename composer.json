@@ -7,14 +7,12 @@
     "require": {
         "php": "^8.2",
         "aws/aws-sdk-php": "^3.322",
-        "laravel-payhere/laravel-payhere": "^1.0",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
         "saloonphp/laravel-plugin": "^3.0",
         "spatie/laravel-google-fonts": "^1.4",
         "spatie/laravel-sitemap": "^7.2",
-        "spatie/laravel-support-bubble": "^1.7",
         "torchlight/torchlight-laravel": "^0.6.0"
     },
     "require-dev": {
@@ -71,11 +69,5 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://satis.dasun.dev"
-        }
-    ]
+    "prefer-stable": true
 }
