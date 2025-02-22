@@ -52,7 +52,11 @@
                             <a href="/#features" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Features</a>
                             <a href="/docs" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Docs</a>
                             <a href="{{ route("changelog") }}" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Changelog</a>
-                            <a href="{{ route("checkout") }}" class="rounded-xl bg-white bg-opacity-10 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-opacity-15">Purchase a license</a>
+                            <a href="https://github.com/laravel-payhere/laravel-payhere" target="_blank" rel="noopener noreferrer nofollow" class="inline-flex gap-2 rounded-xl bg-white bg-opacity-10 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-opacity-15">
+                                <svg height="24" width="24" fill="currentColor" aria-hidden="true" viewBox="0 0 24 24" version="1.1" data-view-component="true" class="text-white">
+                                    <path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z"></path>
+                                </svg>
+                            </a>
                         </div>
                         <div x-cloak x-show="open" class="fixed right-0 top-0 z-50 ml-10 flex h-full w-10/12 flex-col gap-8 bg-black p-10" x-transition:enter="transform transition duration-300 ease-in-out" x-transition:enter-start="translate-x-full" x-transition:enter-end="translate-x-0" x-transition:leave="transform transition duration-300 ease-in-out" x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-full">
                             <div class="inline-flex justify-end">
@@ -65,7 +69,7 @@
                             <a href="/#features" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Features</a>
                             <a href="/docs" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Docs</a>
                             <a href="{{ route("changelog") }}" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Changelog</a>
-                            <a href="{{ route("checkout") }}" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">Purchase a license</a>
+                            <a href="https://github.com/laravel-payhere/laravel-payhere" target="_blank" rel="noopener noreferrer nofollow" class="rounded-full px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white hover:bg-opacity-15">GitHub</a>
                         </div>
                     </nav>
                 </header>
@@ -78,11 +82,6 @@
                     <a href="/">
                         <img src="{{ Vite::asset("resources/images/logo@2.svg") }}" class="h-6 md:h-8" alt="Laravel PayHere Logo" />
                     </a>
-                    <div class="inline-flex flex-col gap-2 md:flex-row md:gap-10">
-                        <a href="{{ route("privacy-policy") }}" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Privacy Policy</a>
-                        <a href="{{ route("terms") }}" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Terms and Conditions</a>
-                        <a href="{{ route("refund-policy") }}" class="text-xs font-medium text-white transition-colors hover:underline md:text-sm">Refund Policy</a>
-                    </div>
                     <div class="mt-5 text-start text-xs text-white md:text-center md:text-sm">
                         <a href="https://payhere.lk/" rel="noreferrer nofollow noopener" target="_blank" class="font-medium text-white transition-colors hover:underline">PayHere</a>
                         is a trademark and usage of their trademark for this project has been approved by them.
@@ -90,7 +89,6 @@
                 </footer>
             </div>
         </div>
-        <x-support-bubble />
         @umamiJS
     </body>
 </html>
