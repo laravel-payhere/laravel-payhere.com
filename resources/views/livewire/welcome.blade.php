@@ -28,7 +28,7 @@
         <div class="bg-feature relative flex gap-5 overflow-hidden rounded-none border-y border-white border-opacity-20 px-5 py-14 md:rounded-xl md:border md:px-10 lg:px-[80px] lg:py-[80px]">
             <div class="max-w-full xl:max-w-2xl">
                 <h3 class="text-xl font-semibold text-white md:text-2xl">HTML Form Based API Builder</h3>
-                <p class="mt-10 text-sm text-white md:text-base">PayHere uses HTML form-based APIs to process various types of checkouts, such as recurring checkout. Yes, the example you see (as shown on the right) is exactly the same one we use to check out your perpetual license using the HTML form-based API builder.</p>
+                <p class="mt-10 text-sm text-white md:text-base">PayHere uses HTML form-based APIs to process various types of checkouts, such as recurring checkout. Yes, the example you see (as shown on the right) is a normal checkout.</p>
                 <div class="mt-10">
                     <a href="{{ asset("docs/builder/examples.html") }}" class="text-sm font-medium text-white transition-colors hover:underline md:text-base">Read more</a>
                 </div>
@@ -44,8 +44,8 @@
                             {
                                 return PayHere::builder()
                                     ->guest()
-                                    ->title('Perpetual License (1 Year)')
-                                    ->amount(30000)
+                                    ->title('iPhone 16 Pro')
+                                    ->amount(329900)
                                     ->checkout();
                             }
                         }
