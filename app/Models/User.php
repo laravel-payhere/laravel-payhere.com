@@ -8,9 +8,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use PayHere\Filament\Contracts\PayHerePanelUser;
 
-final class User extends Authenticatable implements PayHerePanelUser
+final class User extends Authenticatable
 {
     use HasFactory, Notifiable;
 
@@ -34,11 +33,6 @@ final class User extends Authenticatable implements PayHerePanelUser
         'password',
         'remember_token',
     ];
-
-    public function canAccessPayHerePanel(): bool
-    {
-        return $this->email === 'hello@dasun.dev';
-    }
 
     /**
      * Get the attributes that should be cast.
