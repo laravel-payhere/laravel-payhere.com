@@ -42,7 +42,6 @@ cd /home/forge/laravel-payhere.com
 php artisan config:cache
 php artisan route:cache
 php artisan view:cache
-php artisan icons:cache
 @endtask
 
 @task('build-assets')
